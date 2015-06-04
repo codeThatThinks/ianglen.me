@@ -13,7 +13,7 @@ body
 {
 	height: 100%;
 	width: 100%;
-	background: #222222 url('/images/background.jpg') center center no-repeat;
+	background: #222222 url('{{ site.baseurl }}/images/background.jpg') center center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
