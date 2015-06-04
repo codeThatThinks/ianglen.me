@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+
+		{% include meta.html %}
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/posts.css" />
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Lato:300,400,700|Merriweather:300italic' rel='stylesheet' type='text/css'>
+		<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
+	</head>
+	<body>
+		<header id="top">
+			{% include header.html %}
+		</header>
+		<div id="posts"{% if paginator.previous_page or paginator.next_page %} class="with-pagination"{% endif %}>
+			{{ content }}
+			<div id="pagination">
+				<div class="wrapper">
+					{% if paginator.previous_page %}
+					<a id="prev" href="{{ paginator.previous_page_path }}"><img src="{{ site.baseurl }}/images/arrow.svg" /></a>
+					{% endif %}
+					{% if paginator.next_page %}
+					<a id="next" href="{{ paginator.next_page_path }}"><img src="{{ site.baseurl }}/images/arrow.svg" /></a>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+
+		{% include analytics.html %}
+	</body>
+</html>

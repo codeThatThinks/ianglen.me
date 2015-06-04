@@ -1,0 +1,6 @@
+<a id="title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+<nav>
+	{% for link in site.links %}
+	<a href="{{ link.url }}">{{ link.name }}</a>
+	{% endfor %}
+</nav>

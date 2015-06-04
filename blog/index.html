@@ -1,0 +1,15 @@
+---
+layout: posts
+title: Blog
+---
+
+{% for post in paginator.posts %}
+<article {% if post.image %}style="background-image:url('/images/{{ post.image }}')"{% endif %}>
+	<a href="{{ post.url }}">
+		<div class="wrapper">
+			<h1>{{ post.title }}</h1>
+			<time>{{ post.date | date: "%B %e, %Y" }}</time>
+		</div>
+	</a>
+</article>
+{% endfor %}

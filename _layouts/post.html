@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+
+		{% include meta.html %}
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/article.css" />
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Lato:300,400,700|Merriweather:300italic,300,700|Inconsolata' rel='stylesheet' type='text/css'>
+	</head>
+	<body{% if page.image %} style="background-image:url('{{ site.baseurl }}/images/{{ page.image }}')"{% endif %}>
+		<div id="wrapper">
+			<header id="top">
+				<div id="container">
+					{% include header.html %}
+				</div>
+			</header>
+			<article>
+				<header>
+					<h1>{{ page.title }}</h1>
+					<time>{{ page.date | date: "%B %e, %Y" }}</time>
+				</header>
+				{{ content }}
+			</article>
+		</div>
+
+		{% include analytics.html %}
+	</body>
+</html>
