@@ -72,7 +72,7 @@ It is available on eBay for about $10-20. Search "10DOF IMU" or "GY-80".
 
 ### GY-81
 
-A 10DOF IMU module that is identical to the GY-80 except that it includes an [ITG3205](http://www.tinyosshop.com/datasheet/itg3205.pdf) (three-axis gyroscope) instead of the L3G4200D, and a [BMA180](https://www.sparkfun.com/datasheets/Sensors/Accelerometer/BST-BMA180-DS000-03.pdf) (three-axis accelerometer) instead of the ADXL345. The GY-80 has the same HMC5883L](http://www51.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Defense_Brochures-documents/HMC5883L_3-Axis_Digital_Compass_IC.pdf) (three-axis magnetometer) and [BMP085](https://www.sparkfun.com/datasheets/Components/General/BMP085_Flyer_Rev.0.2_March2008.pdf) (barometer + temperature) sensors.
+A 10DOF IMU module that is identical to the GY-80 except that it includes an [ITG3205](http://www.tinyosshop.com/datasheet/itg3205.pdf) (three-axis gyroscope) instead of the L3G4200D, and a [BMA180](https://www.sparkfun.com/datasheets/Sensors/Accelerometer/BST-BMA180-DS000-03.pdf) (three-axis accelerometer) instead of the ADXL345. The GY-81 has the same [HMC5883L](http://www51.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Defense_Brochures-documents/HMC5883L_3-Axis_Digital_Compass_IC.pdf) (three-axis magnetometer) and [BMP085](https://www.sparkfun.com/datasheets/Components/General/BMP085_Flyer_Rev.0.2_March2008.pdf) (barometer + temperature) sensors.
 
 There are two M3 mounting holes and holes for a 10 pin .1" header. #4 machine screws will also fit in the mounting holes.
 
