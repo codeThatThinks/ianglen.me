@@ -18,6 +18,7 @@ A collection of information on the various cheap electronics modules available o
 	<tr><td>GY-80</td><td>10</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td></td><td>$10-20</td></tr>
 </table></div>
 
+
 ### GY-291
 
 ![GY-291](/content/misc/cheap-ebay-electronics/GY-291-thumbnail.jpg)   
@@ -31,7 +32,8 @@ There are two M3 mounting holes and holes for an 8 pin .1" header. #4 machine sc
 
 This module is capable of running off 3.3-5V, as it includes an onboard voltage regulator. **However, since this module does not include a level shifter, maximum logic voltage is 3.6V. 5V logic will fry the ADXL345.** Communication is done through I<sup>2</sup>C.
 
-It is available on eBay for about ~$2-3. Search "GY-291".
+It is available on eBay for about $2-3. Search "GY-291".
+
 
 ### GY-521
 
@@ -46,7 +48,8 @@ There are two M3 mounting holes and holes for an 8 pin .1" header. #4 machine sc
 
 This module will run off 3.3-5V, as it includes an onboard voltage regulator. **However, since this module does not include a level shifter, maximum logic voltage is 3.46V. 5V logic will fry the MPU-6050.** Communication is done through I<sup>2</sup>C.
 
-It is available on eBay for about ~$2-4. Search "GY-521".
+It is available on eBay for about $2-4. Search "6DOF IMU" or "GY-521".
+
 
 ### GY-80
 
@@ -61,9 +64,24 @@ There are two M3 mounting holes and holes for a 10 pin .1" header. #4 machine sc
 
 The module is capable of running off of 3.3-5V, as it includes an onboard voltage regulator. Also includes an onboard level shifter so it can be used with 5V logic. Communication is done though I<sup>2</sup>C.
 
-It is available on eBay for about ~$10-20. Search "10 DOF IMU" or "GY-80".
+It is available on eBay for about $10-20. Search "10 DOF IMU" or "GY-80".
+
 
 ### GY-85
+
+![GY-85](/content/misc/cheap-ebay-electronics/GY-85-thumbnail.jpg)   
+Actual size ([View Larger Image](/content/misc/cheap-ebay-electronics/GY-85.jpg))
+
+[Schematic for GY-85](/content/misc/cheap-ebay-electronics/GY-85-schematic.jpg)
+
+A 9DOF IMU module that includes [ITG3205](http://www.tinyosshop.com/datasheet/itg3205.pdf) (three-axis gyroscope), [ADXL345](http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf) (three-axis accelerometer), and [HMC5883L](http://www51.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Defense_Brochures-documents/HMC5883L_3-Axis_Digital_Compass_IC.pdf) (three-axis magnetometer) sensors.
+
+There is one M3 mounting hole and holes for an 8 pin .1" header. #4 machine screws will also fit in the mounting holes.
+
+The module is capable of running off of 3.3-5V, as it includes an onboard voltage regulator. Also includes an onboard level shifter so it can be used with 5V logic. Communication is done though I<sup>2</sup>C.
+
+It is available on eBay for about $11-16. Search "GY-85".
+
 
 ### GY-86
 
