@@ -17,6 +17,7 @@ A collection of information on the various cheap electronics modules available o
 	<tr><td>GY-291</td><td>3</td><td>&#10003;</td><td></td><td></td><td></td><td></td><td>$2-3</td></tr>
 	<tr><td>GY-521</td><td>6</td><td>&#10003;</td><td>&#10003;</td><td></td><td></td><td>&#10003;</td><td>$2-4</td></tr>
 	<tr><td>GY-80</td><td>10</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td></td><td>$10-20</td></tr>
+	<tr><td>GY-81</td><td>10</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td></td><td>$10-20</td></tr>
 	<tr><td>GY-85</td><td>9</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td></td><td></td><td>$11-16</td></tr>
 </table></div>
 
@@ -66,7 +67,18 @@ There are two M3 mounting holes and holes for a 10 pin .1" header. #4 machine sc
 
 The module is capable of running off of 3.3-5V, as it includes an onboard voltage regulator. Also includes an onboard level shifter so it can be used with 5V logic. Communication is done though I<sup>2</sup>C.
 
-It is available on eBay for about $10-20. Search "10 DOF IMU" or "GY-80".
+It is available on eBay for about $10-20. Search "10DOF IMU" or "GY-80".
+
+
+### GY-81
+
+A 10DOF IMU module that is identical to the GY-80 except that it includes an [ITG3205](http://www.tinyosshop.com/datasheet/itg3205.pdf) (three-axis gyroscope) instead of the L3G4200D, and a [BMA180](https://www.sparkfun.com/datasheets/Sensors/Accelerometer/BST-BMA180-DS000-03.pdf) (three-axis accelerometer) instead of the ADXL345. The GY-80 has the same HMC5883L](http://www51.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Defense_Brochures-documents/HMC5883L_3-Axis_Digital_Compass_IC.pdf) (three-axis magnetometer) and [BMP085](https://www.sparkfun.com/datasheets/Components/General/BMP085_Flyer_Rev.0.2_March2008.pdf) (barometer + temperature) sensors.
+
+There are two M3 mounting holes and holes for a 10 pin .1" header. #4 machine screws will also fit in the mounting holes.
+
+The module is capable of running off of 3.3-5V, as it includes an onboard voltage regulator. Also includes an onboard level shifter so it can be used with 5V logic. Communication is done though I<sup>2</sup>C.
+
+It is available on eBay for about $10-20. Search "10DOF IMU" or "GY-81".
 
 
 ### GY-85
