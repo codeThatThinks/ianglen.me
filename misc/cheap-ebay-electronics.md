@@ -10,6 +10,14 @@ A collection of information on the various cheap electronics modules available o
 ### nRF24L01
 
 ## IMUs
+
+<div class="table"><table>
+	<tr><th>Name</th><th>DOF</th><th>Accel.</th><th>Gyro.</th><th>Mag.</th><th>Baro.</th><th>DMP</th><th>Price</th></tr>
+	<tr><td>GY-291</td><td>3</td><td>&#10003;</td><td></td><td></td><td></td><td></td><td>$2-3</td></tr>
+	<tr><td>GY-521</td><td>6</td><td>&#10003;</td><td>&#10003;</td><td></td><td></td><td>&#10003;</td><td>$2-4</td></tr>
+	<tr><td>GY-80</td><td>10</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td></td><td>$10-20</td></tr>
+</table></div>
+
 ### GY-291
 
 ![GY-291](/content/misc/cheap-ebay-electronics/GY-291-thumbnail.jpg)   
