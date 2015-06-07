@@ -16,6 +16,7 @@ A collection of information on the various cheap electronics modules available o
 	<tr><td>GY-291</td><td>3</td><td>&#10003;</td><td></td><td></td><td></td><td></td><td>$2-3</td></tr>
 	<tr><td>GY-521</td><td>6</td><td>&#10003;</td><td>&#10003;</td><td></td><td></td><td>&#10003;</td><td>$2-4</td></tr>
 	<tr><td>GY-80</td><td>10</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td></td><td>$10-20</td></tr>
+	<tr><td>GY-85</td><td>9</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td></td><td></td><td>$11-16</td></tr>
 </table></div>
 
 
