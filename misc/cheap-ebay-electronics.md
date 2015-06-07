@@ -2,6 +2,7 @@
 layout: page
 title: Cheap eBay Electronics Modules
 permalink: /misc/cheap-ebay-modules/
+excerpt: A collection of information on the various cheap electronics modules available on eBay, such as the nRF24L01 and GY-80.
 ---
 
 A collection of information on the various cheap electronics modules available on eBay. Some may be knockoffs or fakes, but many are just trying implement technology in the cheapest way possible.
