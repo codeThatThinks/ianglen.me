@@ -14,7 +14,8 @@ A collection of information on the various cheap electronics modules available o
 
 ### GY-80
 
-[![GY-80](/content/misc/cheap-ebay-electronics/GY-80-thumbnail.jpg)](/content/misc/cheap-ebay-electronics/GY-80.jpg)
+![GY-80](/content/misc/cheap-ebay-electronics/GY-80-thumbnail.jpg)   
+Actual size ([View Larger Image](/content/misc/cheap-ebay-electronics/GY-80.jpg))
 
 A 10DOF IMU modules that includes [L3G4200D](http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00265057.pdf) (three-axis gyroscope), [ADXL345](http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf) (three-axis accelerometer), [HMC5883L](http://www51.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Defense_Brochures-documents/HMC5883L_3-Axis_Digital_Compass_IC.pdf) (three-axis magnetometer), and [BMP085](https://www.sparkfun.com/datasheets/Components/General/BMP085_Flyer_Rev.0.2_March2008.pdf) (barometer + temperature) sensors.
 
