@@ -16,7 +16,7 @@ Our computer networks should be the same way. Have each device on the network be
 
 This kind of a networking already exists. It is known as mesh networking.
 
-In a perfect world, each device would connect via WiFi to a few other devices. Those devices, in turn, would be connected to other devices. Due to each device being directly connected to the open 'internet', IPv6 would have to supported natively. With this, a maximum of 3.4 x 10<exp>38</exp> devices could be supported, or about 4.9 x 10<exp>28</exp> times the total population of the world.
+In a perfect world, each device would connect via WiFi to a few other devices. Those devices, in turn, would be connected to other devices. Due to each device being directly connected to the open 'internet', IPv6 would have to supported natively. With this, a maximum of 3.4 x 10<sup>38</sup> devices could be supported, or about 4.9 x 10<sup>28</sup> times the total population of the world.
 
 Security would be a big concern if the internet was a mesh network. There wouldn't be any router or firewall to protect individual devices. All data sent between two devices would have to be checked against it's MD5 checksum and a public/private key system would be employed to make sure devices are what they say they are. Encryption would be a must.
 
