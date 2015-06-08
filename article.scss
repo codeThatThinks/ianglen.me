@@ -409,6 +409,7 @@ article
 
 	aside.advertisement
 	{
+		padding: 40px 80px 50px 80px;
 		margin-top: 50px;
 		margin-bottom: 50px;
 		text-align: center;
@@ -416,13 +417,12 @@ article
 		font-weight: 300;
 		font-size: 12pt;
 		color: #555555;
+		background-color: #EEEEEE;
 
-		img
+		.advertisement-wrapper
 		{
-			margin: 0;
-			margin-top: 5px;
-			width: 100%;
-			height: auto;
+			max-width: 100%;
+			overflow: hidden;
 		}
 	}
 }
@@ -590,6 +590,7 @@ article
 		{
 			margin-top: 8%;
 			margin-bottom: 8%;
+			padding: 8% 10% 8% 10%;
 		}
 	}
 }
@@ -709,6 +710,7 @@ article
 		{
 			margin-top: 8%;
 			margin-bottom: 8%;
+			padding: 8% 8% 8% 8%;
 		}
 	}
 }
