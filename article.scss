@@ -246,6 +246,27 @@ article
 			{
 				margin: 0;
 			}
+
+			a,
+			a:visited
+			{
+				padding-bottom: 2px;
+				color: #555555;
+				text-decoration: none;
+				border-bottom: 3px #CCCCCC solid;
+				-webkit-transition: border-bottom-color .1s, color .1s;
+				-moz-transition: border-bottom-color .1s, color .1s;
+				-ms-transition: border-bottom-color .1s, color .1s;
+				-o-transition: border-bottom-color .1s, color .1s;
+				transition: border-bottom-color .1s, color .1s;
+			}
+
+			a:active,
+			a:hover
+			{
+				color: #000000;
+				border-bottom-color: #000000;
+			}
 		}
 
 		li:last-child
