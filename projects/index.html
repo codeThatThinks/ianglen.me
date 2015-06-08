@@ -1,0 +1,17 @@
+---
+layout: posts
+title: Projects
+excerpt: Various projects I've worked on.
+---
+
+{% for sitepage in site.pages %}
+	{% if sitepage.category == "project" %}
+<article{% if sitepage.image %} style="background-image:url('/content/{{ sitepage.image }}'){% if sitepage.image-position %};background-position-y:{{ sitepage.image-position }}{% endif %}"{% endif %}>
+	<a href="{{ sitepage.url }}">
+		<div class="wrapper">
+			<h1>{{ sitepage.title }}</h1>
+		</div>
+	</a>
+</article>
+	{% endif %}
+{% endfor %}
