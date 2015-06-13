@@ -61,7 +61,12 @@ Actual size ([View Larger Image](/content/misc/cheap-ebay-electronics/GY-80.jpg)
 
 [Schematic for GY-80](/content/misc/cheap-ebay-electronics/GY-80-schematic.jpg)
 
-A 10DOF IMU module that includes [L3G4200D](http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00265057.pdf) (three-axis gyroscope), [ADXL345](http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf) (three-axis accelerometer), [HMC5883L](http://www51.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Defense_Brochures-documents/HMC5883L_3-Axis_Digital_Compass_IC.pdf) (three-axis magnetometer), and [BMP085](https://www.sparkfun.com/datasheets/Components/General/BMP085_Flyer_Rev.0.2_March2008.pdf) (barometer + temperature) sensors.
+A 10DOF IMU module that includes the following sensors:
+
+* [L3G4200D](http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00265057.pdf) three-axis gyroscope
+* [ADXL345](http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf) three-axis accelerometer
+* [HMC5883L](http://www51.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Defense_Brochures-documents/HMC5883L_3-Axis_Digital_Compass_IC.pdf) three-axis magnetometer
+* [BMP085](https://www.sparkfun.com/datasheets/Components/General/BMP085_Flyer_Rev.0.2_March2008.pdf) barometer + temperature sensor
 
 There are two M2.5 mounting holes and holes for a 10 pin .1" header. #4 machine screws will also fit in the mounting holes. Two variations are available. The board layout is generally the same but the silkscreen color may be red or blue. Modules with red silkscreen include extra capacitors near the mounting holes, making it impossible to use mounting screws where the head of the screw is larger than 4mm. Fillister head machine screws can be used, as they have smaller heads, or normal machine screws can be sanded down to fit.
 
@@ -88,7 +93,11 @@ Actual size ([View Larger Image](/content/misc/cheap-ebay-electronics/GY-85.jpg)
 
 [Schematic for GY-85](/content/misc/cheap-ebay-electronics/GY-85-schematic.jpg)
 
-A 9DOF IMU module that includes [ITG3205](http://www.tinyosshop.com/datasheet/itg3205.pdf) (three-axis gyroscope), [ADXL345](http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf) (three-axis accelerometer), and [HMC5883L](http://www51.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Defense_Brochures-documents/HMC5883L_3-Axis_Digital_Compass_IC.pdf) (three-axis magnetometer) sensors.
+A 9DOF IMU module that includes the following sensors:
+
+* [ITG3205](http://www.tinyosshop.com/datasheet/itg3205.pdf) three-axis gyroscope
+* [ADXL345](http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf) three-axis accelerometer
+* [HMC5883L](http://www51.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Defense_Brochures-documents/HMC5883L_3-Axis_Digital_Compass_IC.pdf) three-axis magnetometer
 
 There is one M2.5 mounting hole and holes for an 8 pin .1" header. #4 machine screws will also fit in the mounting holes.
 
