@@ -7,19 +7,19 @@ excerpt: I'm trying to fix bad password requirements, one website at a time.
 
 I'm trying to fix bad password requirements, one website at a time. So many websites have terrible password requirements that force user to choose insecure but hard to remember passwords. Ideally, a password should be __very long__ and __memorable__. [Relevant XKCD](https://xkcd.com/936/).
 
-# What is "secure"?
+## What is "secure"?
 
 I'm not a security expert, but based on what I've read, these requirements are what I consider secure enough for the basic internet user.
 
 Think you know better? I'd like to hear your point of view, so [mailto:ian@ianglen.me](shoot me an email). I'll try to keep this page updated as I learn more.
 
-## Minimum Length
+### Minimum Length
 
 __8__
 
 This should be the absolute minimum. Password length is the number one priority when protecting against a brute force attack, and as the length increases, the time required to crack it (and therefore it's level of security) increases exponentially.
 
-## Maximum Length
+### Maximum Length
 
 __infinite*__
 
@@ -29,7 +29,7 @@ In a perfect world, a password of infinite length is immune to brute force attac
 
 If you *must* choose a number for maximum length, go with at least __64__. But please, don't do that if you aren't absolutely forced to.
 
-## Other Requirements
+### Other Requirements
 
 ___[zxcvbn](https://github.com/dropbox/zxcvbn)___
 
@@ -42,7 +42,7 @@ I recommend [zxcvbn](https://github.com/dropbox/zxcvbn), a library created by th
 {% include ad.html %}
 
 
-# List of Password Requirements
+## List of Password Requirements
 
 Coming soon.
 
