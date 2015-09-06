@@ -57,10 +57,10 @@ I recommend [zxcvbn](https://github.com/dropbox/zxcvbn), a library created by th
 * Min. length: 7 characters
 * Max. length: 12 characters
 * Must contain at least 3 of the following:
-** uppercase letter
-** lowercase letter
-** a number
-** a symbol
+  * uppercase letter
+  * lowercase letter
+  * a number
+  * a symbol
 * Cannot have more than 2 repeating characters
 
 
@@ -70,8 +70,8 @@ I recommend [zxcvbn](https://github.com/dropbox/zxcvbn), a library created by th
 * Min. length: 8 characters
 * Max. length: infinite
 * Must contain:
-** a letter
-** a number
+  * a letter
+  * a number
 
 
 ### Afraid.org FreeDNS <small>(<span style="color:#c94114">BAD</span>)</small>
@@ -95,9 +95,9 @@ I recommend [zxcvbn](https://github.com/dropbox/zxcvbn), a library created by th
 * Max. length: 12 characters
 * Cut, copy, and paste are disabled
 * Must contain:
-** uppercase letter
-** lowercase letter
-** a number
+  * uppercase letter
+  * lowercase letter
+  * a number
 
 
 {% include ad.html %}
