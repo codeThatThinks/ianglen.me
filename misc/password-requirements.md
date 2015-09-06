@@ -102,4 +102,30 @@ I recommend [zxcvbn](https://github.com/dropbox/zxcvbn), a library created by th
   * a number
 
 
+### Autodesk <small>(<span style="color:#c94114">BAD</span>)</small>
+[https://www.autodesk.com](https://www.autodesk.com)
+
+* Min. length: 8 characters
+* Max. length: 50 characters
+* Must contain:
+  * a letter
+  * a number
+* Must have at least 3 unique characters
+
+
+### BitcoinCZ <small>(<span style="color:#c94114">BAD</span>)</small>
+[https://mining.bitcoin.cz](https://mining.bitcoin.cz)
+
+* Min. length: 1 character
+* Max. length: infinite
+
+
+### Cars.com <small>(<span style="color:#c94114">BAD</span>)</small>
+[https://www.cars.com](https://www.cars.com)
+
+* Min. length: 6 characters
+* Max. length: infinite
+* No spaces
+
+
 {% include ad.html %}
