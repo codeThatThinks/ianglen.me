@@ -44,7 +44,8 @@ I recommend [zxcvbn](https://github.com/dropbox/zxcvbn), a library created by th
 
 ## List of Password Requirements
 
-### [pcb4u.com](http://www.pcb4u.com) <span style="color:#c94114">bad</span>
+### Accutrace PCB4U <small><span style="color:#c94114">BAD</span></small>
+#### [http://www.pcb4u.com](http://www.pcb4u.com)
 
 * Min. length: 5 characters
 * Max. length: 12 characters
