@@ -44,6 +44,9 @@ I recommend [zxcvbn](https://github.com/dropbox/zxcvbn), a library created by th
 
 ## List of Password Requirements
 
-Coming soon.
+### [pcb4u.com](http://www.pcb4u.com) <span style="color:#c94114">bad</span>
+
+* Min. length: 5 characters
+* Max. length: 12 characters
 
 {% include ad.html %}
