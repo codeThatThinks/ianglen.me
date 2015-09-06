@@ -64,4 +64,40 @@ I recommend [zxcvbn](https://github.com/dropbox/zxcvbn), a library created by th
 * Cannot have more than 2 repeating characters
 
 
+### AdFly <small>(<span style="color:#7fcb5c">GOOD</span>)</small>
+[https://adf.ly](https://adf.ly)
+
+* Min. length: 8 characters
+* Max. length: infinite
+* Must contain:
+** a letter
+** a number
+
+
+### Afraid.org FreeDNS <small>(<span style="color:#c94114">BAD</span>)</small>
+[http://freedns.afraid.org](http://freedns.afraid.org)
+
+* Min. length: 4 characters
+* Max. length: 16 characters
+
+
+### Algorithmia <small>(<span style="color:#c94114">BAD</span>)</small>
+[https://algorithmia.com](https://algorithmia.com)
+
+* Min. length: 6 characters
+* Max. length: infinite
+
+
+### Analog Devices myAnalog <small>(<span style="color:#c94114">BAD</span>)</small>
+[https://analog.com](https://analog.com)
+
+* Min. length: 6 characters
+* Max. length: 12 characters
+* Cut, copy, and paste are disabled
+* Must contain:
+** uppercase letter
+** lowercase letter
+** a number
+
+
 {% include ad.html %}
