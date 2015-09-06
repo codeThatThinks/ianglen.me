@@ -5,13 +5,15 @@ permalink: /misc/password-requirements/
 excerpt: I'm trying to fix bad password requirements, one website at a time.
 ---
 
-I'm trying to fix bad password requirements, one website at a time. So many websites have terrible password requirements that force user to choose insecure but hard to remember passwords. Ideally, a password should be __very long__ and __memorable__. [Relevant XKCD](https://xkcd.com/936/).
+I'm trying to fix bad password requirements, one website at a time. So many websites have terrible password requirements that force user to choose insecure but hard to remember passwords. Ideally, a password should be __very long__ and __memorable__.
+
+[Relevant XKCD](https://xkcd.com/936/).
 
 ## What is "secure"?
 
 I'm not a security expert, but based on what I've read, these requirements are what I consider secure enough for the basic internet user.
 
-Think you know better? I'd like to hear your point of view, so [mailto:ian@ianglen.me](shoot me an email). I'll try to keep this page updated as I learn more.
+Think you know better? I'd like to hear your point of view, so [shoot me an email](mailto:ian@ianglen.me). I'll try to keep this page updated as I learn more.
 
 ### Minimum Length
 
@@ -31,7 +33,7 @@ If you *must* choose a number for maximum length, go with at least __64__. But p
 
 ### Other Requirements
 
-___[zxcvbn](https://github.com/dropbox/zxcvbn)___
+__[zxcvbn](https://github.com/dropbox/zxcvbn)__
 
 People used to think that having a complex password meant that it was a secure password. Unfortunately, password crackers have come a long way, and they are now capable of many of the common substitutions and weird tricks people use to create complex passwords, which makes them insecure.
 
