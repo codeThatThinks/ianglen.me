@@ -44,10 +44,24 @@ I recommend [zxcvbn](https://github.com/dropbox/zxcvbn), a library created by th
 
 ## List of Password Requirements
 
-### Accutrace PCB4U <small><span style="color:#c94114">BAD</span></small>
-#### [http://www.pcb4u.com](http://www.pcb4u.com)
+### Accutrace PCB4U <small>(<span style="color:#c94114">BAD</span>)</small>
+[http://www.pcb4u.com](http://www.pcb4u.com)
 
 * Min. length: 5 characters
 * Max. length: 12 characters
+
+
+### ACT Student Web Services <small>(<span style="color:#c94114">BAD</span>)</small>
+[https://www.actstudent.org](https://www.actstudent.org)
+
+* Min. length: 7 characters
+* Max. length: 12 characters
+* Must contain at least 3 of the following:
+** uppercase letter
+** lowercase letter
+** a number
+** a symbol
+* Cannot have more than 2 repeating characters
+
 
 {% include ad.html %}
