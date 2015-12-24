@@ -11,6 +11,7 @@ My custom-built large quadcopter. Everything releated to this build can be found
 
 ## Project Updates
 
+* [Quadcopter Status Update](/blog/quadcopter-status-update/)
 * [Flashing Turnigy Multistar ESCs with SimonK](/blog/flashing-turnigy-multistar-escs-with-simonk)
 * [Building a Quadcopter](/blog/building-a-quadcopter)
 
