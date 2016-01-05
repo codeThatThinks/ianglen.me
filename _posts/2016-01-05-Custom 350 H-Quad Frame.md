@@ -6,7 +6,7 @@ image: custom-350-h-quad-frame/post.jpg
 
 I've spent the last week designing and building a new frame as I refurbish my quadcopter. It has been a lot of work, but I finally have something that is lightweight, durable, and looks awesome.
 
-{% include image.html url="/content/custom-350-h-quad-frame/design.jpg" %}
+{% include image.html url="/content/custom-350-h-quad-frame/drawing.jpg" %}
 
 Before I got to work drawing up the design in FreeCAD, I had to decide on a few things. First and foremost, I had to decide between a X, +, or H configuration for the motors, each configuration having its pros and cons. For my previous frame, I had gone with the X configuration simply because it was a popular and very standard design. However, as I started mounting the various components, I realized that it doesn't leave much room in the center to put everything. The + configuration isn't much better, so for this frame I went with the H configuration instead. This gets me a large platform to mount the electronics.
 
