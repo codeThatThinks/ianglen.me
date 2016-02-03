@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AirPort Extremes and Static IP Addresses - Ian Glen</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+		<meta name="description" content="The AirPort Extreme can sometimes act weird when a computer is set to use a static IP address and obtain everything else using DHCP. Fortunately the fix is a simple setting change." />
+		
+		<link rel="author" href="http://plus.google.com/+IanGlen" />
+
+		<link rel="stylesheet" href="../../css/style.css" />
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic|Merriweather:400,300,300italic,400italic,700,700italic|Inconsolata' rel='stylesheet' type='text/css' />
+
+		<script type="text/javascript" src="../../js/jquery-1.11.0.min.js"></script>
+
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<header id="top">
+			<a href="../../" id="title">ian<b>glen</b></a>
+			<div id="breadcrumb"><a href="../">Blog</a></div>
+		</header>
+		<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+			<span itemprop="description" style="display:none;">The AirPort Extreme can sometimes act weird when a computer is set to use a static IP address and obtain everything else using DHCP. Fortunately the fix is a simple setting change.</span>
+			<section>
+				<div class="section-header" style="background-image:url('../../content/airport-extremes-and-static-ip-addresses/post.jpg');">
+					<h1 itemprop="name">AirPort Extremes and Static IP Addresses</h1>
+					<time datetime="2012-02-24" itemprop="dateCreated">February 24th, 2012</time>
+				</div>
+				<div class="section-image-background" style="background-image:url('../../content/airport-extremes-and-static-ip-addresses/post.jpg');"></div>
+				<div class="section-wrapper">
+					<p><i>Note: By static IP addresses, I mean computer with a static internal IP address. Use Google if you're having trouble with static public IP addresses.</i></p>
+					<p>While configuring a Debian gateway recently, I noticed something extremely weird with the way an AirPort Extreme handles static IP addresses. In short, it doesn't like them. Fortunately, there is a solution.</p>
+					<figure>
+						<img src="../../content/airport-extremes-and-static-ip-addresses/setup.jpg" alt="Settings that trigger weird AirPort Extreme behavior" />
+						<figcaption>Settings that trigger weird AirPort Extreme behavior</figcaption>
+					</figure>
+					<p>A computer on the network managed by the AirPort Extreme has it's internal IP address set manually, with a manual subnet mask, gateway, and DNS servers. The AirPort Extreme serves IP addresses to other computer on the network via DHCP.</p>
+					<p>Any intelligent individual would set the range of DHCP address served by the AirPort Extreme to <b>not</b> include the IP address in which the computer has set manually. Because of this, the AirPort Extreme doesn't see the computer on the network and therefore doesn't handle requests sent to and from it. Other computers on the network can't even ping the computer.</p>
+					<p><b>To get the AirPort to see the computer with the manual address, simply add a DHCP reservation with the IP address the computer is manually set to and it's MAC address.</b> There isn't a need to change the DHCP range to include the manual IP address.</p>
+					<figure>
+						<img src="../../content/airport-extremes-and-static-ip-addresses/solution.jpg" alt="Adding a DHCP reservation makes everything work" />
+						<figcaption>Adding a DHCP reservation makes everything work</figcaption>
+					</figure>
+				</div>
+			</section>
+			<aside class="extra">
+				<div class="advertisement">
+					<span>Advertisement</span><br />
+				</div>
+			</aside>
+		</article>
+		<script type="text/javascript" src="../../js/scripts.js"></script>
+	</body>
+</html>

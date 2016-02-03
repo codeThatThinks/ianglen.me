@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Needs for Stuff that Rocks - Ian Glen</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+		<meta name="description" content="For some things, every implementation sucks and there is no alternative that doesn't." />
+
+		<link rel="stylesheet" href="../../css/style.css" />
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic|Merriweather:400,300,300italic,400italic,700,700italic|Inconsolata' rel='stylesheet' type='text/css' />
+
+		<script type="text/javascript" src="../../js/jquery-1.11.0.min.js"></script>
+
+		<!--[if lt IE 9]>
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<header id="top">
+			<a href="../../" id="title">ian<b>glen</b></a>
+			<div id="breadcrumb"><a href="../">Miscellaneous</a></div>
+		</header>
+		<article class="post" itemscope itemtype="http://schema.org/Article">
+			<span itemprop="description" style="display:none;">For some things, every implementation sucks and there is no alternative that doesn't.</span>
+			<section>
+				<div class="section-header" style="background-image:url('../../content/needs/page.jpg');">
+					<h1 itemprop="name">Needs for Stuff that Rocks</h1>
+				</div>
+				<div class="section-image-background" style="background-image:url('../../content/needs/page.jpg');"></div>
+				<div class="section-wrapper">
+					<p>For some things, every implementation sucks and there is no alternative that doesn't. Don't forget to take a look at <a href="../sucks/">stuff that sucks</a> and <a href="../rocks/">stuff that rocks</a>.</p>
+				</div>
+			</section>
+			<section>
+				<div class="section-header" style="background-image:url('../../content/needs/linux-gui-toolkit.jpg');">
+					<h2>Linux GUI Toolkit</h2>
+				</div>
+				<div class="section-image-background" style="background-image:url('../../content/needs/linux-gui-toolkit.jpg');"></div>
+				<div class="section-wrapper">
+					<p>Every toolkit that is available now sucks in one way or another. There is a definite need for an awesome toolkit that can become the single best toolkit for writing graphical Linux applications, so much so that we can abandon all other toolkits and end up with a pretty consistant user experience across all applications and Linux platforms. We need common sense merged with toolkit design.</p>
+					<p>What makes a toolkit awesome, you ask? Well, it probably should:<br />
+					<ul>
+						<li><b>Target Linux only</b><br />
+							When using MVC, the frontend for an application can easily be switched out for the native GUI library for another platform quite easily if the core the application is written well. Only then can a Linux toolkit focus solely on providing a good user experience without the need for os portability.</li>
+						<li><b>Be windowing system agnostic</b><br />
+							A toolkit should be written in a modular way that allows it to support a variety of windowing systems and that support for new protocols can be added easily, such as in the case of switching from Xorg to Wayland. This should work similarly to how applications handle multiple frontends with MVC.</li>
+						<li><b>Be window manager agnostic</b><br />
+							It is extremely irritating when an application using a specific toolkit is designed only for a floating window manager and ceases to function properly when using on other types of window managers. Standards for window managers provide clients with the information neccessary to determine what behavior a toolkit should provide in order to be compatible with the window manager. Any good toolkit must follow window manager standards and adjust accordingly.</li>
+						<li><b>Take advantage of the GPU</b><br />
+							Graphical Processing Units are supposed to handle graphics related tasks, and it would be ridiculous if a Graphical User Interface toolkit didn't use the GPU. In some cases the GPU can be used to leverage performance while still providing an interface that is pleasing to the eye.</li>
+						<li><b>Have a simple programming interface</b><br />
+							A toolkit should be both easy to use and easy to understand from a programming perspective. Whether or not this involves OO programming or something entirely different altogether, like functional programming, is unknown. Regardless, an awesome toolkit shouldn't have some kind of fake OO poorly bolted to an imperative language like C (cough, cough, GTK).</li>
+						<li><b>Provide a modern user experience</b><br />
+							It seems like this would be an obvious goal for a toolkit, however many toolkits act like it's still the early 90s. An awesome toolkit should have some of the hipster-esque widgets such as segmented buttons, popovers, and token text fields, as well as modern behaviors such as universal drag and drop and autocorrect.</li>
+					</ul></p>
+					<p>It might be impossible for an open source toolkit to implement all these things, but we're already part way there. Many toolkits provide some of these things, and with the freedom that comes with FLOSS, creating a toolkit that steals parts from these other toolkits is actually possible. Please someone (or some people) go do this.</p>
+				</div>
+			</section>
+			<aside class="extra">
+				<div class="advertisement">
+					<span>Advertisement</span><br />
+				</div>
+			</aside>
+		</article>
+		<script type="text/javascript" src="../../js/scripts.js"></script>
+	</body>
+</html>
