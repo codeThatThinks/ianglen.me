@@ -1,0 +1,120 @@
+/*
+CSS File For IWEB
+Do not edit
+*/
+
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+body
+{
+background: #fcfcfe url('../images/background.bmp') repeat;
+font-family: 'Arimo';
+font-size: 12px;
+x-index: 1;
+}
+
+#wrapper
+{
+width: 1000px;
+background: #ECE9D8 url('../images/wrapper.bmp') repeat-y;
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 11px;
+font-family: 'Arimo';
+x-index: 2;
+}
+
+#toptab
+{
+width: 1000px;
+height: 28px;
+background: #ECE9D8 url('../images/toptab.bmp') no-repeat;
+padding-left: 15px;
+padding-right: 15px;
+line-height: 36px;
+font-family: 'Arimo';
+x-index: 3;
+}
+
+div.fieldsettop
+{
+font-family: 'Arimo';
+color: #0046D5;
+background: #fcfcfe url('../images/fieldsettop.bmp') no-repeat;
+padding-left: 10px;
+padding-right: 10px;
+width: 925px;
+height: 9px;
+x-index: 5;
+}
+
+div.fieldsetmiddle
+{
+font-family: 'Arimo';
+background: transparent url('../images/fieldsetmiddle.bmp') repeat-y;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 6px;
+width: 925px;
+x-index: 4;
+}
+
+div.fieldsetbottom
+{
+font-family: 'Arimo';
+background: #fcfcfe url('../images/fieldsetbottom.bmp') no-repeat;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 6px;
+line-height: 9px;
+width: 925px;
+x-index: 4;
+}
+
+#footer
+{
+width: 1000px;
+background: #ECE9D8 url('../images/footer.bmp') no-repeat;
+padding-left: 6px;
+padding-right: 6px;
+padding-top: 20px;
+font-family: 'Arimo';
+x-index: 4
+}
+
+#menu
+{
+}
+
+#menu ul
+{
+list-style-type: none;
+}
+
+#menu li
+{
+float: left;
+margin-right: 5px;
+width: 116px;
+height: 24px;
+}
+
+#menu a
+{
+display: block;
+text-decoration: none;
+background: #fcfcfe url('../images/navlink.bmp') no-repeat;
+color: #000000;
+padding: 5px;
+font-family: 'Arimo';
+cursor: default;
+}
+
+#menu a:hover
+{
+background: #fcfcfe url('../images/navhover.bmp') no-repeat;
+}

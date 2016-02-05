@@ -24,5 +24,5 @@ This is where everything else goes.
 * Ian'sWeb v4.5 - Oct 2010 to Mar 2011
 * Ian'sWeb v4 - Sept 2009 to Oct 2010
 * IWEB v3 - May 2009 to Sept 2009
-* IWEB v2 - Jan 2009 to May 2009
+* [IWEB v2 - Jan 2009 to May 2009]({{ site.baseurl }}/archive/ianglen.me/v2/)
 * IWEB v1 - Jun 2008 to Jan 2009 _(lost to history)_
