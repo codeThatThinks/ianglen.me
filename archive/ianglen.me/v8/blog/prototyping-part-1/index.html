@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Prototyping (Part I) - Ian Glen's Blog</title>
+
+		<meta charset="UTF-8" />
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,300,300italic|Cabin:400,400italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../../css/style.css" />
+
+		<meta name="description" content="One of the first steps to designing the control board of my quadcopter is getting the microcontroller working. This covers designing and etching a breakout board for one of Atmel's 32-bit ARM microcontrollers." />
+		<meta name="keywords" content="atmel, arm, microcontroller, breakout, board, pcb, prototyping, etching, homemade, lqfp, make" />
+	</head>
+	<body>
+		<header id="top">
+			<div class="wrapper">
+				<h1><a href="../">the blog of <b>ian</b><strong>glen</strong></a></h1>
+				<span class="bio">electronics, programming, philosophy, randomness</span>
+				<a href="https://plus.google.com/101328277661836846637?rel=author" style="display:none;">By Ian Glen</a>
+			</div>
+		</header>
+		<div class="wrapper">
+			<h2>Prototyping (Part I)</h2>
+			<span>May 25, 2013</span>
+			
+			<p>One of the first steps to designing the control board of my quadcopter is getting the microcontroller working. Since it has many things to do, like processing input from the ground, monitoring telemetry, and streaming video and sensor data to the ground, I've chosen an Atmel 32-bit ARM MCU. It has a way faster clock speed compared to 8-bit MCUs and its ARM architecture greatly expands its capabilities.</p>
+			<p>Specifically, I've chosen the <a href="http://www.atmel.com/devices/SAM3U2C.aspx">Atmel ATSAM3U2C</a>. It runs at 96 MHz, has 128kb of flash, and is fairly inexpensive (~$5). For prototyping, I've chosen the chip in a 100 pin LQFP package, as it makes soldering (slightly) easier.</p>
+			<h3>Designing the PCB</h3>
+			<figure>
+				<a href="../../img/prototyping-part-1-lqfp.png"><img src="../../img/prototyping-part-1-lqfp.png" alt="100 pin LQFP package" /></a>
+				<figcaption>100 pin LQFP package</figcaption>
+			</figure>
+			<p>In order to start prototyping with this tiny chip, I need to make a breakout board. With some copper clad board, a laser printer, vinegar, salt, and hydrogen peroxide, it is pretty easy to make PCBs at home. In a nutshell, areas of the copper clad board are masked off and then the unmasked areas of the copper clad are dissolved with an etching solution, creating the circuit on the board.</p>
+			<p>To start, I designed the breakout PCB using pcb, part of gEDA, an open source and free electronics design suite. Since the header pins I'll be using have 0.1" spacing, I set units to mils (thousandths of an inch, or 0.001") and grid spacing to 10 mils. The pins on the chip have a width of 10 mils and a spacing of 20 mils. It is important to remember that spacing is measured from the center of one pin to the center of the other pin, so the space between each pin is actually 10 mils. To make etching easier, I made sure there was a 20 mil space between any traces other than where the chip would sit.</p>
+			<figure>
+				<a href="../../img/prototyping-part-1-pcb.png"><img src="../../img/prototyping-part-1-pcb.png" alt="Finished breakout design" /></a>
+				<figcaption>Finished breakout design</figcaption>
+			</figure>
+			<h3>Toner Transfering the Design</h3>
+			<p>After designing the board, it's time to prepare the copper clad. The copper on the board reacts with the air to form copper oxide, which must be cleaned off before the design can be transfered to the board. <b>Lightly</b> sand the copper clad with some fine grit sandpaper (500 to 800 grit). Make sure not to sand through the copper layer and expose the substrate. Once done, wipe with some acetone (or nail polish remover). <b>Only handle the copper clad by the edges from this point forward.</b></p>
+			<figure>
+				<a href="../../img/prototyping-part-1-cleaning.png"><img src="../../img/prototyping-part-1-cleaning.png" alt="Copper clad ready for toner transfer" /></a>
+				<figcaption>Copper clad ready for toner transfer</figcaption>
+			</figure>
+			<p>Once the copper clad is ready, it's time to transfer the design to the board. In pcb, hide the pads, vias, and far side layers by clicking each layer's color. Then goto File > Export layout, click eps, check as-shown, monochrome, and only-visible, and click Save. Open the eps in another program, such as Preview or Photoshop, and print the design on plain paper. Make sure to test some of your components (ics, headers, etc.) to make sure they match the size of the pads on the design. It took me a few tries, but I ended up printing the design 99% original size to get the pins on the MCU to line up.</p>
+			<p>Once I was confident that the design matched up exactly with the MCU, it was time to print the design for toner transfer onto the board. <b>The design must be printed on a laser printer</b>, otherwise this toner transfer method will not work. I found that printing on magazine paper works the best, preferably without a lot of color already on the page. If feeding this thin paper jams your printer, simply fold the top of the page to double its thickness. Be careful though: <b>if the toner from your printer doesn't stick to the page, it can contaminate the drum and wreck your laser printer</b>. Print at your own risk. Afterwords, cut the page down to the size of the design.</p>
+			<p>To transfer the toner to the board, set your clothes iron to maximum temperature and iron it onto the board for 2-3 minutes, moving the iron every 15 seconds or so. Since toner is heat activated, the heat from the iron will cause it to adhere to the board.</p>
+			<p>Next, the paper must be separated, leaving the toner stuck to the board. Soak the board in warm water for about 10 minutes. Then, as the paper begins to dissolve, gently rub to remove each layer of paper <b>with your finger</b>. Do not try to peal the paper off the board, as some of the toner will come off with it. The last layer of paper will include the gloss of the magazine paper and is usually harder to get off. If it doesn't rub off extremely easily, let it soak more in warm water before trying to remove it. One all the paper is off, an ultra-fine Sharpie or extremely thin piece of electrical tape can be used to replace any missing toner.</p>
+			<p>If you find that not everything transfered completely, you can always start over. Acetone (or nail polish) will dissolve the toner.</p>
+			<figure>
+				<a href="../../img/prototyping-part-1-toner.png"><img src="../../img/prototyping-part-1-toner.png" alt="Copper clad ready for etching" /></a>
+				<figcaption>Copper clad ready for etching</figcaption>
+			</figure>
+			<h3>Etching the PCB</h3>
+			<p>There are quite a few ways out there to etch a PCB at home. I, personally, like to use an environmentally friendly method, which comes with the added benefit that it can be made with things at home:</p>
+			<p>
+			- one part vinegar<br />
+			- one part hydrogen peroxide<br />
+			- enough salt so that it dissolves completely in the solution</p>
+			<p style="text-align:left;">And if you're a chemistry nerd:<br />
+			Acetic Acid + Hydrogen Peroxide + Copper &rarr; Cupric Acetate + Water + Hydrogen gas<br />
+			CH<sub>3</sub>COOH + H<sub>2</sub>O<sub>2</sub> + Cu &rarr; Cu(CH<sub>3</sub>COO)<sub>2</sub> + H<sub>2</sub>O + O<sub>2</sub></p>
+			<p><b>Wear gloves and goggles when mixing the solution</b>, as hydrogen peroxide is an oxidizer and the resulting solution is fairly corrosive. Then place the board in the solution. Every couple of minutes, brush the board gently to remove any cupric acetate and maintain concentrated solution near the copper. The solution should turn blue (which is cupric acetate). All the copper should dissolve away in an hour or two, depending on the size of the board.</p>
+			<figure>
+				<a href="../../img/prototyping-part-1-etching.png"><img src="../../img/prototyping-part-1-etching.png" alt="Vinegar, salt, and hydrogen peroxide dissolving away any unmasked copper" /></a>
+				<figcaption>Vinegar, salt, and hydrogen peroxide dissolving away any unmasked copper</figcaption>
+			</figure>
+			<p>If the reaction happens extremely slowly and there's still copper on the board a few hours later, the hydrogen peroxide added to the solution probably isn't hydrogen peroxide. Since hydrogen peroxide decomposes into water when it comes in contact with air, it has a short shelf life and doesn't last long after its container has been opened. This was the issue I had, which meant that I was adding water to the solution, diluting it rather than adding an oxidizer.</p>
+			<p>It turns out that vinegar and salt can etch the board even without the hydrogen peroxide, although it can take an extremely long time (over 24 hours). By that time, the toner on the board also starts to dissolve. I ended up taking the board out every hour or so to Sharpie over any areas missing toner.</p>
+			<figure>
+				<a href="../../img/prototyping-part-1-finished.png"><img src="../../img/prototyping-part-1-finished.png" alt="Finished etching" /></a>
+				<figcaption>Finished etching</figcaption>
+			</figure>
+			<h3>Finishing Up</h3>
+			<p>Finally, after all the copper has been removed, it is time to remove the toner. Take the board out of the solution and wash it off with some water. With some acetone (or nail polish remover), gently remove all the toner, exposing the finished copper circuit. Now it is ready for some solder.</p>
+			<p>I tested the fit of the MCU again. Everything still lines up perfectly, which means it's time to do some surface mount and reflow soldering.</p>
+			<figure>
+				<a href="../../img/prototyping-part-1-fitting.png"><img src="../../img/prototyping-part-1-fitting.png" alt="Ready for solder" /></a>
+				<figcaption>Ready for solder</figcaption>
+			</figure>
+			<p>In the next blog post, I'll cover soldering, setting up a toolchain, and developing with this MCU.</p>
+		</div>
+	</body>
+</html>
