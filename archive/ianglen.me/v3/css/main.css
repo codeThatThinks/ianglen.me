@@ -1,0 +1,203 @@
+﻿/* Created By Ian Glen -Author of IWEB */
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	background: #1A1A1A none;
+}
+
+#wrapper
+{
+	margin: 0px auto;
+	width: 1000px;
+	margin-top: 5px;
+}
+
+#header
+{
+	background: transparent url('../images/head.png') no-repeat;
+	width: 1000px;
+	height: 100px;
+}
+
+#template
+{
+	width: 125px;
+	height: 50px;
+	position: absolute;
+	margin-top: 35px;
+	margin-left: 875px;
+	font: Normal Normal Normal 10px 'Verdana', 'Helvetica', 'Arial', sans-serif;
+	text-align: center;
+}
+
+#menu
+{
+	border: thin #898989 solid;
+	border-width: 2px;
+	width: 13em;
+	background: #000000;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	z-index: 2;
+	float: left;
+}
+
+#menu ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu a
+{
+	font: Normal Normal Normal 10px 'Verdana', 'Helvetica', 'Arial', sans-serif;
+	display: block;
+	margin: 0;
+	padding: 2px 3px;
+	color: #898989;
+	background: #000000 none;
+	text-decoration: none;
+}
+
+#menu a:hover
+{
+	color: #000000;
+	background: #898989;
+}
+
+#menu ul ul ul
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#menu li 
+{
+	position: relative;
+}
+
+#menu ul ul ul 
+{
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 100%;
+}
+
+div#menu ul ul ul, div#menu ul ul li:hover ul ul
+{
+	display: none;
+}
+
+div#menu ul ul li:hover ul 
+{
+	display: block;
+}
+
+#rightcontent
+{
+	margin-left: 215px;
+	width: 785px;
+	height: auto;
+	margin-top: 5px;
+}
+
+#contenttop
+{
+	width: 785px;
+	height: 15px;
+	font: Normal Normal Normal 10px 'Verdana', 'Helvetica', 'Arial', sans-serif;
+	color: #000000;
+	background: #898989 none;	
+}
+
+#content
+{
+	width: 783px;
+	height: auto;
+	background: #000000 url('../images/content.bmp') repeat-y;
+	font: Normal Normal Normal 15px 'Verdana', 'Helvetica', 'Arial', sans-serif;
+	color: #898989;
+	padding-left: 5px;
+	padding-bottom: 2px;
+}
+
+p.code
+{
+	font: Normal Normal Normal 10px 'Verdana', 'Helvetica', 'Arial', sans-serif;
+	color: #FFFFFF;
+	border-left: medium #FFFFFF solid;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 5px;
+}
+
+b.news
+{
+	font: Normal Normal Bold 10px 'Verdana', 'Helvetica', 'Arial', sans-serif;
+}
+
+hr
+{
+	border: 0;
+	background: #898989 none;
+	height: 2px;
+	width: 98.5%;
+}
+
+span#rss
+{
+	font: Normal Normal Normal 10px 'Verdana', 'Helvetica', 'Arial', sans-serif;
+	color: #FF9933;
+	
+}
+#content ul
+{
+	margin-left: 20px;
+}
+#contentbottom
+{
+	width: 785px;
+	height: 2px;
+	background: #898989 none;
+	margin-bottom: 5px;
+}
+
+#footer
+{
+	width: 1000px;
+	height: 25px;
+	background: transparent url('../images/footer.bmp') no-repeat;
+	clear: left;
+	margin-top: 5px;
+	font: Normal Normal Normal 15px 'Verdana', 'Helvetica', 'Arial', sans-serif;
+	color: #898989;
+}
+
+#footer span
+{
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 5px;
+}
+
+#footer a
+{
+	color: #898989;
+	text-decoration: none;
+}
+
+#footer a:hover
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
