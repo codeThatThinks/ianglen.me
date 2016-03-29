@@ -7,5 +7,6 @@ excerpt: A list of vacuum tube factories.
 
 ## Soviet/USSR
 
-### Orel
-![Orel](/content/misc/vacuum-tube-collection/factories/orel.svg)
+<div class="table"><table>
+	<tr><td>![Orel](/content/misc/vacuum-tube-collection/factories/orel.svg)</td><td>Orel</td></tr>
+</table></div>
