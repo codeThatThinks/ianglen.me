@@ -8,7 +8,6 @@ excerpt: This is where everything else goes.
 This is where everything else goes.
 
 * [Cheap eBay Electronics Modules]({{ site.baseurl }}/misc/cheap-ebay-modules/)
-* [Password Requirements for Various Websites]({{ site.baseurl }}/misc/password-requirements/)
 * [My Vacuum Tube Collection]({{ site.baseurl }}/misc/vacuum-tube-collection/)
 
 ## Archive
