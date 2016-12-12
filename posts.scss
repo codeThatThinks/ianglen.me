@@ -61,7 +61,7 @@ header#top
 	nav
 	{
 		float: right;
-		display: inline-block;
+		display: block;
 		margin-top: 3px;
 		padding: 16px 22px 12px 22px;
 		clear: none;
@@ -318,11 +318,11 @@ header#top
 	}
 }
 
-@media only screen and (max-width: 610px)
+@media only screen and (max-width: 630px)
 {
 	header#top
 	{
-		padding-top: 3%;
+		padding-top: 18px;
 		margin-bottom: 3%;
 		padding-left: 3%;
 		padding-right: 3%;
@@ -333,10 +333,15 @@ header#top
 			float: none;
 		}
 
+		#titleBreak
+		{
+			display: block;
+		}
+
 		nav
 		{
 			float: none;
-			margin-top: 20px;
+			margin-top: 10px;
 		}
 	}
 
@@ -355,11 +360,6 @@ header#top
 					padding-left: 3%;
 					padding-right: 3%;
 
-					h1
-					{
-						font-size: 28pt;
-					}
-
 					time
 					{
 						font-size: 12pt;
@@ -372,19 +372,81 @@ header#top
 		{
 			a
 			{
-				padding-top: 25%;
+				padding-top: 130px;
 			}
 		}
 	}
 }
 
-@media only screen and (max-width: 425px)
+@media only screen and (max-width: 540px)
 {
+	#posts
+	{
+		article
+		{
+			a,
+			a:visited
+			{
+				.wrapper
+				{
+					h1
+					{
+						font-size: 24pt;
+					}
+				}
+			}
+		}
+	}
+
 	#posts article:first-child
 	{
 		a
 		{
-			padding-top: 40%;
+			padding-top: 130px;
+		}
+	}
+}
+
+@media only screen and (max-width: 440px)
+{
+	header#top
+	{
+		a#title
+		{
+			font-size: 20pt;
+		}
+
+		nav
+		{
+			margin: 10px auto;
+			padding: 10px 18px 10px 18px;
+			width: 200px;
+		}
+	}
+
+	#posts
+	{
+		article
+		{
+			a,
+			a:visited
+			{
+				.wrapper
+				{
+					h1
+					{
+						font-size: 20pt;
+					}
+				}
+			}
+		}
+	}
+
+	#posts article:first-child
+	{
+		a
+		{
+			padding-top: 140px;
 		}
 	}
 }
