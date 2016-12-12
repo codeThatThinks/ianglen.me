@@ -509,10 +509,34 @@ article
 
 @media only screen and (max-width: 680px)
 {
+	body
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
 	header#top
 	{
-		padding-top: 8%;
-		margin-bottom: 8%;
+		padding: 5% 5% 0 5%;
+		margin-bottom: 5%;
+		text-align: center;
+
+		a#title,
+		a#title:visited
+		{
+			float: none;
+		}
+
+		#titleBreak
+		{
+			display: block !important;
+		}
+
+		nav
+		{
+			float: none;
+			margin-top: 10px;
+		}
 	}
 
 	article
@@ -604,29 +628,11 @@ article
 
 @media only screen and (max-width: 610px)
 {
-	body
-	{
-		padding-left: 3%;
-		padding-right: 3%;
-	}
-
 	header#top
 	{
 		padding-top: 3%;
+		padding: 3% 3% 0 3%;
 		margin-bottom: 3%;
-		text-align: center;
-
-		a#title,
-		a#title:visited
-		{
-			float: none;
-		}
-
-		nav
-		{
-			float: none;
-			margin-top: 20px;
-		}
 	}
 
 	article
