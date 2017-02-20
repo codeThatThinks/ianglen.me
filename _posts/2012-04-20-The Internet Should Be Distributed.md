@@ -2,6 +2,7 @@
 title: The Internet Should Be Distributed
 permalink: /blog/the-internet-should-be-distributed/
 image: the-internet-should-be-distributed.jpg
+hidden: 1
 ---
 
 Let's face it: the internet, and computer networks in general, are still centralized systems. I don't care how many different routes may be available for a computer to take in order to access another computer—it's still a centralized system. Every computer connected to a network has to rely on a single router or switch to handle and reroute traffic on the internet.

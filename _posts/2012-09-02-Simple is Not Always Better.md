@@ -2,6 +2,7 @@
 title: Simple is Not Always Better
 permalink: /blog/simple-is-not-always-better/
 image: simple-is-not-always-better.jpg
+hidden: 1
 ---
 
 It may seem that I always talk about simplicity. I mean, I'm a minimalist. That's my best design philosophy. I love simplicity. It works in a variety of places, has good results, and isn't that hard to accomplish.

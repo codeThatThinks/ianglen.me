@@ -2,6 +2,7 @@
 title: Learning to Code
 permalink: /blog/learning-to-code/
 image: learning-to-code.jpg
+hidden: 1
 ---
 
 *Update: After talking to fellow programmers about this post, I realized that this post could've been made more clear. Many programmers use 'code' to describe the syntax of a programming language, while 'programming' is the act of thinking, planning, and analyzing a problem while writing code in order to write efficient and well written software. When I said 'learning to code', I actually meant 'learning to program'. Sorry for any confusion.*

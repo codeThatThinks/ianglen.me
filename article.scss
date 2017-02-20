@@ -727,3 +727,98 @@ article
 		}
 	}
 }
+
+@media only screen and (max-width: 520px)
+{
+	article
+	{
+		padding-top: 5%;
+		padding-bottom: 5%;
+
+		header
+		{
+			margin-bottom: 5%;
+
+			time
+			{
+				margin-left: 8%;
+				margin-right: 8%;
+			}
+		}
+
+		h1,
+		h2,
+		h3,
+		h4
+		{
+			margin-left: 8%;
+			margin-right: 8%;
+		}
+
+		h1
+		{
+			font-size: 28pt;
+		}
+
+		h2
+		{
+			margin-top: 5%;
+			font-size: 28pt;
+		}
+
+		p
+		{
+			margin-left: 8%;
+			margin-right: 8%;
+		}
+
+		ul,
+		ol
+		{
+			margin-left: 8%;
+			margin-right: 8%;
+		}
+
+		figure figcaption
+		{
+			padding-left: 8%;
+			padding-right: 8%;
+			margin-top: -5%;
+			margin-bottom: 8%;
+		}
+
+		figure img,
+		.video
+		{
+			margin-top: 8%;
+			margin-bottom: 8%;
+		}
+
+		.table
+		{
+			margin-left: 8%;
+			margin-right: 8%;
+		}
+
+		pre code
+		{
+			margin-top: 8%;
+			margin-bottom: 8%;
+			padding: 8% 8% 8% 8%;
+		}
+
+		blockquote
+		{
+			margin-left: 8%;
+			margin-right: 8%;
+			padding: 3% 4% 3% 8%;
+		}
+
+		aside.advertisement
+		{
+			margin-top: 8%;
+			margin-bottom: 8%;
+			padding: 8% 8% 8% 8%;
+		}
+	}
+}

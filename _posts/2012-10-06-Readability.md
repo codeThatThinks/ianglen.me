@@ -2,6 +2,7 @@
 title: Readability
 permalink: /blog/readability/
 image: readability.jpg
+hidden: 1
 ---
 
 *Update: Most, if not all, the problems outlined in this post have been fixed. In the process I've [open sourced this Anchor CMS theme](http://github.com/codeThatThinks/ianglen.me-Anchor-CMS-Theme). Feel free to modify it for your own needs.*

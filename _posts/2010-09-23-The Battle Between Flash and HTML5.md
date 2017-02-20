@@ -2,6 +2,7 @@
 title: The Battle Between Flash and HTML5
 permalink: /blog/the-battle-between-flash-and-html5/
 image: the-battle-between-flash-and-html5.jpg
+hidden: 1
 ---
 
 *This post was written a really long time ago and was one of the first posts on the first iteration of my blog. Excuse the grammer and spelling.*

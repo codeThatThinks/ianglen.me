@@ -2,6 +2,7 @@
 title: Writing Daily
 permalink: /blog/writing-daily/
 image: writing-daily.jpg
+hidden: 1
 ---
 
 When I first revived this blog around the start of 2012, I promised myself that I would keep it updated and prevent it from falling by the wayside, like the site before it, and, uh, the one before that.

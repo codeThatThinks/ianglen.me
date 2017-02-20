@@ -2,6 +2,7 @@
 title: Thoughts on OS X Mountain Lion
 permalink: /blog/thoughts-on-os-x-mountain-lion/
 image: thoughts-on-os-x-mountain-lion/post.jpg
+hidden: 1
 ---
 
 When I first heard about Mountain Lion, I was in disbelief. How could such a company prepare to release another major update to it's operating system when the last major version has had only two minor updates?

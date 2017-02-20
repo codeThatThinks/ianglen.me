@@ -2,6 +2,7 @@
 title: My Workspace Sucks
 permalink: /blog/my-workspace-sucks/
 image: my-workspace-sucks.jpg
+hidden: 1
 ---
 
 It does.

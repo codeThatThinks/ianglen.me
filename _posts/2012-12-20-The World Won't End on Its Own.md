@@ -3,6 +3,7 @@ title: The World Won't End on Its Own
 permalink: /blog/the-world-wont-end-on-its-own/
 image: the-world-wont-end-on-its-own.jpg
 image-position: top
+hidden: 1
 ---
 
 Ok, let's be real here. The world (almost certainly) will not end on December 21st, 2012. Yeah, the Mayan Calendar might end, but all other calendars end too. The world doesn't end when our calendars do, and neither should the Mayan calendar be any different.

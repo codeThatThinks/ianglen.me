@@ -3,6 +3,7 @@ title: "\"Just Think About It\""
 permalink: /blog/just-think-about-it/
 image: just-think-about-it.jpg
 image-position: 25%
+hidden: 1
 ---
 
 That was the response I received when I asked my math teacher about a problem today. That basically meant that he hadn't any idea of how to go about solving the problem and to "just think about it" and have the answer come to you magically.

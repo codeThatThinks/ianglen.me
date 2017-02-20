@@ -328,14 +328,15 @@ header#top
 		padding-right: 3%;
 		text-align: center;
 
-		a#title
+		a#title,
+		a#title:visited
 		{
 			float: none;
 		}
 
 		#titleBreak
 		{
-			display: block;
+			display: block !important;
 		}
 
 		nav

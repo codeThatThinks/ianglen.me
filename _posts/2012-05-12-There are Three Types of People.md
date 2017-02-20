@@ -1,6 +1,7 @@
 ---
 title: There are Three Types of People
 permalink: /blog/there-are-three-types-of-people/
+hidden: 1
 ---
 
 I’ve heard many programmers say that there are 10 types of people, but, after 15 years of living on this planet, I believe there are more.

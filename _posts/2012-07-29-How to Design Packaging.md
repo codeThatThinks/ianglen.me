@@ -3,6 +3,7 @@ title: How to Design Packaging
 permalink: /blog/how-to-design-packaging/
 image: how-to-design-packaging.jpg
 image-position: 58%;
+hidden: 1
 ---
 
 Packaging is one of the most important aspects of a product. People forget that. Often.

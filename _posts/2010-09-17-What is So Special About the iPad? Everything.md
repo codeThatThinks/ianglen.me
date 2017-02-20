@@ -2,6 +2,7 @@
 title: What is So Special About the iPad? Everything.
 permalink: /blog/what-is-so-special-about-the-ipad-everything/
 image: what-is-so-special-about-the-ipad-everything.jpg
+hidden: 1
 ---
 
 *This post was written a really long time ago and was one of the first posts on the first iteration of my blog. Excuse the grammer and spelling.*

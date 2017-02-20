@@ -2,6 +2,7 @@
 title: Big Companies are Bad
 permalink: /blog/big-companies-are-bad/
 image: big-companies-are-bad.jpg
+hidden: 1
 ---
 
 I hate big companies. I really do. Not because of all the corporate mumbo jumbo that goes on, but because of the loss of focus on the product (or service) at hand.

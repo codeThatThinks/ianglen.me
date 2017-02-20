@@ -2,6 +2,7 @@
 title: Airport Extremes and Static IP Addresses
 permalink: /blog/airport-extremes-and-static-ip-addresses/
 image: airport-extremes-and-static-ip-addresses/post.jpg
+hidden: 1
 ---
 
 *Note: By static IP addresses, I mean computer with a static internal IP address. Use Google if you're having trouble with static public IP addresses.*

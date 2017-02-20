@@ -2,6 +2,7 @@
 title: Joining Twitter
 permalink: /blog/joining-twitter/
 image: joining-twitter.jpg
+hidden: 1
 ---
 
 [Permanent - Will Smidlein's Blog](http://blog.willsmidlein.com/permanent/):

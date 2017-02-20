@@ -2,6 +2,7 @@
 title: On Buying Things
 permalink: /blog/on-buying-things/
 image: on-buying-things.jpg
+hidden: 1
 ---
 
 Some people buy new. It’s expensive.
