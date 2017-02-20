@@ -11,12 +11,31 @@ My custom-built quadcopter. Everything related to this build can be found on [Gi
 
 ## Project Updates
 
-* [Custom 350 H-Quad Frame](/blog/custom-350-h-quad-frame/)
-* [Quadcopter Status Update](/blog/quadcopter-status-update/)
-* [Flashing Turnigy Multistar ESCs with SimonK](/blog/flashing-turnigy-multistar-escs-with-simonk)
-* [Building a Quadcopter](/blog/building-a-quadcopter)
+* 01/05/2016: [Custom 350 H-Quad Frame](/blog/custom-350-h-quad-frame/)
+* 12/24/2015: [Quadcopter Status Update](/blog/quadcopter-status-update/)
+* 01/02/2014: [Flashing Turnigy Multistar ESCs with SimonK](/blog/flashing-turnigy-multistar-escs-with-simonk)
+* 05/19/2013: [Building a Quadcopter](/blog/building-a-quadcopter)
 
 {% include ad.html %}
+
+
+## Version 2.5
+
+The frame has been redesigned to increase its ability to withstand a crash and to reduce weight. The entire power system has been replaced with higher quality components, so the flight times have improved significantly.
+
+### Specs
+
+* Frame: Custom 350mm; 16mm carbon fiber tubes, 1.5mm carbon fiber plate, 3D printed mounts
+* PDB: Custom 120 A with power switch, current sensor, and filtered VTX power
+* Motors: Tiger Motor MT2208-18 1100kv
+* ESCs: Hobbyking Blueseries 30A running BLHeli
+* Props: APC Multirotor 8x4.5
+* Battery: Lumenier 3300mAh 4S 35C Lipo
+* Flight Controller: Naze32 Full running Cleanflight
+* Reciever: OrangeRX R617XL 6ch 2.4GHz
+* OSD: Micro MinimOSD w/ KV Team Mod
+* FPV Camera: FatShark 700TVL CMOS
+* FPV Transmitter: FatShark 5.8GHz 250mW w/ ImmersionRC LHCP SpiroNet antenna
 
 
 ## Version 2
@@ -25,13 +44,13 @@ This is an in-progress build of a 350-size H quad. It's designed to be more dura
 
 ### Specs
 
-**Note: Untested, but eCalc says it should fly quite well.**
+**Note: This setup does work, however the version above is significantly better.**
 
-* Frame: Custom 350-size; Made from 1mm and 1.5mm 3K carbon fiber
+* Frame: Custom 350mm; 25mm carbon fiber tubes, 1.5mm carbon fiber plate
 * Motors: Turnigy Aerodrive D2830-11 1000kv
 * ESCs: Turnigy Multistar 30A w/ SBEC
-* Props: Genuine APC Multirotor 9x4.5
-* Battery: Zippy Flightmax 3000mAh 4S 20C LiPo
+* Props: APC Multirotor 9x4.5
+* Battery: Zippy Flightmax 3000mAh 4S 20C Lipo
 * Flight Controller: Naze32 Full running Cleanflight
 * Receiver: OrangeRX R615x 6ch 2.4GHz
 * Telemetry: cheap clone of 3DR Telemetry Module 915mHz
@@ -40,6 +59,7 @@ This is an in-progress build of a 350-size H quad. It's designed to be more dura
 
 ### Photos
 
+{% include image.html url="/content/projects/quadcopter/ver2-assembled.jpg" %}
 {% include image.html url="/content/projects/quadcopter/ver2-frame.jpg" %}
 {% include image.html url="/content/projects/quadcopter/ver2-motors.jpg" %}
 {% include image.html url="/content/projects/quadcopter/ver2-case.jpg" %}
