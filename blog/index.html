@@ -4,6 +4,7 @@ title: Blog
 ---
 
 {% for post in paginator.posts %}
+{% if post.hidden != 1 %}
 <article{% if post.image %} style="background-image:url('/content/{{ post.image }}'){% if post.image-position %};background-position-y:{{ post.image-position }}{% endif %}"{% endif %}>
 	<a href="{{ post.url }}">
 		<div class="wrapper">
@@ -12,4 +13,5 @@ title: Blog
 		</div>
 	</a>
 </article>
+{% endif %}
 {% endfor %}
