@@ -37,6 +37,9 @@ The frame has been redesigned to increase its ability to withstand a crash and t
 * FPV Camera: FatShark 700TVL CMOS
 * FPV Transmitter: FatShark 5.8GHz 250mW w/ ImmersionRC LHCP SpiroNet antenna
 
+### Photos
+
+{% include image.html url="/content/projects/quadcopter/ver2.5-quadcopter.jpg" %}
 
 ## Version 2
 
