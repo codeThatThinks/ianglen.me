@@ -11,6 +11,7 @@ My custom-built quadcopter. Everything related to this build can be found on [Gi
 
 ## Project Updates
 
+* 02/27/2017: [Updated Frame Design](/blog/updated-frame-design/)
 * 01/05/2016: [Custom 350 H-Quad Frame](/blog/custom-350-h-quad-frame/)
 * 12/24/2015: [Quadcopter Status Update](/blog/quadcopter-status-update/)
 * 01/02/2014: [Flashing Turnigy Multistar ESCs with SimonK](/blog/flashing-turnigy-multistar-escs-with-simonk)
