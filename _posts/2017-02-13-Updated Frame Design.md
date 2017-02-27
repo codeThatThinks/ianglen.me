@@ -13,7 +13,7 @@ It turns out the main reason for the crash was because the default PID values in
 
 The crash also revealed that the motor mounts were a weak point in the design. The el-cheapo mounts I bought off Amazon couldn't handle the force of the motors when they hit the ground, and the mounting screws ripped right through the 1mm carbon fiber plate that the motors were mounted to. The wall thickness of the tubes was also a little on the thin side, as I was able to crack one tube when I tightened the motor mounts.
 
-{% include image.html url="/content/updated-frame-design/el-cheapo-motor-mount.jpg" %}
+{% include image.html url="/content/updated-frame-design/el-cheapo-motor-mount.jpg" autosize="1" %}
 
 I was aware at this point that I needed to come up with a better way to attach the motors, and while I was at it, I should also address other minor issues that I discovered. The next revision of the frame needed stronger motor mounts, stronger tubes, improved rigidity of the center section, and reduced weight.
 
