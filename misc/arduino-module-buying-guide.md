@@ -22,6 +22,7 @@ I've collected some information on cheap modules for Arduino, Raspberry Pi, etc.
 	<tr><td><a href="#gy-80">GY-80</a></td><td>10</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td></td><td>$10-20</td></tr>
 	<tr><td><a href="#gy-81">GY-81</a></td><td>10</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td></td><td>$10-20</td></tr>
 	<tr><td><a href="#gy-85">GY-85</a></td><td>9</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td></td><td></td><td>$11-16</td></tr>
+	<tr><td><a href="#gy-88">GY-88</a></td><td>10</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>$10-20</td></tr>
 	<tr><td><a href="#gy-291">GY-291</a></td><td>3</td><td>&#10003;</td><td></td><td></td><td></td><td></td><td>$2-3</td></tr>
 	<tr><td><a href="#gy-521">GY-521</a></td><td>6</td><td>&#10003;</td><td>&#10003;</td><td></td><td></td><td>&#10003;</td><td>$2-4</td></tr>
 </table></div>
@@ -84,6 +85,19 @@ There is one M2.5 mounting hole and holes for an 8 pin .1" header. #4 machine sc
 The module is capable of running off of 3.3-5V, as it includes an onboard voltage regulator. Also includes an onboard level shifter so it can be used with 5V logic. Communication is done though I<sup>2</sup>C.
 
 It is available on eBay for about $11-16. Search "GY-85".
+
+<a name="gy-88"></a>
+### GY-88
+
+[![GY-88](/content/misc/cheap-ebay-electronics/GY-88-thumbnail.jpg)](/content/misc/cheap-ebay-electronics/GY-88.jpg)
+
+A 10-DOF IMU module that includes the following sensors:
+
+* [MPU6050](https://www.invensense.com/products/motion-tracking/6-axis/mpu-6050/) three-axis accelerometer, three-axis gyroscope
+* [HMC5883L](http://www51.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Defense_Brochures-documents/HMC5883L_3-Axis_Digital_Compass_IC.pdf) three-axis magnetometer
+* [BMP085](https://www.sparkfun.com/datasheets/Components/General/BMP085_Flyer_Rev.0.2_March2008.pdf) barometer + temperature sensor
+
+It is available on eBay for about $10-20. Search "10DOF IMU" or "GY-88".
 
 <a name="gy-291"></a>
 ### GY-291
