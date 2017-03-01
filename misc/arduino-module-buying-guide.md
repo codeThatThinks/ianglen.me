@@ -7,14 +7,22 @@ excerpt: A handy reference for cheap Arduino/RasPi/DIY electronics modules avail
 
 I've collected some information on cheap modules for Arduino, Raspberry Pi, etc. that can be had on eBay, Banggood, etc. for just a few bucks. There boards available for all kinds of sensors and chips, and for each chip or sensor there are many variants of breakout boards, some which are better than others. Hopefully this page helps you determine which one is best for your project as well as get it to do something useful.
 
+If you discover a module that isn't yet on this page, please [let me know](mailto:ian@ianglen.me) so that I can add it.
+
 
 ## Table of Contents
 
-* [IMUs](#imus)
+* [IMU](#imu)
+* [GPS](#gps)
+* [Light Sensor](#light-sensor)
+* [Rangefinder](#rangefinder)
+* [Wireless](#wireless)
 
 
-<a name="imus"></a>
-## IMUs
+<a name="imu"></a>
+## IMU
+
+Inertial measurement units (or IMUs) are able to measure relative motion. Accelerometers measure linear acceleration along an axis, gyroscopes measure the rate of rotation about an axis, magnetometers measure the strength of Earth's magnetic field (or any magnetic field) along an axis, and barometers measure air pressure (and sometimes air temperature). Using sensor fusion algorithms, relative position and attitude can be calculated. Most of the time these calculations must be performed by the device reading the sensor, such as an Arduino, although certain sensors include digital motion processing (DMP) and can perform these calculations themselves. Degrees of freedom (DOF) are the total number of measurement axes. For example, an IMU with a three-axis accelerometer and a three-axis gyroscope would have 6 degrees of freedom.
 
 <div class="table"><table>
 	<tr><th>Name</th><th>DOF</th><th>Accel.</th><th>Gyro.</th><th>Mag.</th><th>Baro.</th><th>DMP</th><th>Price</th></tr>
@@ -128,6 +136,88 @@ Approximate board dimensions are 20.5mm x 16mm. Weight is 1.1g. There are two &#
 This module will run off 3.3-5V, as it includes an onboard voltage regulator. **However, since this module does not include a level shifter, maximum logic voltage is 3.46V. 5V logic will fry the MPU-6050.** Communication is done through I<sup>2</sup>C.
 
 It is available on eBay for about $2-4. Search "6DOF IMU" or "GY-521".
+
+### TODO
+
+* GY-82
+* GY-86
+* GY-87
+* GY-89
+* GY-91
+* 9DOF LSM303DLHC L3GD20
+* 10DOF LSM303DLHC L3GD20 BMP180
+* 6DOF Digital ADXL345 ITG3205
+* ITG3205 breakout
+* MPU6050 breakout
+* MPU6050 mini breakout
+* GY-6500
+* GY-9250
+* LSM9DS0 breakout
+* CJMCU-32005
+* GY-BMP280-3.3
+* GY-BME280-3.3
+* GY-BME280-5
+* GY-25
+* GY-26
+* GY-282
+* GY-511
+* GY-63
+* GY-652
+* GY-50
+* CJMCU-LIS3DH
+
+
+<a name="gps"></a>
+## GPS
+
+GPS modules provide absolute position, speed over ground, and accurate time.
+
+### TODO
+
+* GY-GPSV3-NEO-6M
+* GY-GPSV3-NEO-7M
+* GY-GPSV3-NEO-M8N
+* GY-GPSV5-NEO-6M
+* GY-GPSV5-NEO-7M
+* GY-GPSV5-NEO-M8N
+* GY-GPS6MV2
+* UCTRONICS UC-300
+
+
+<a name="light-sensor"></a>
+## Light Sensor
+
+### TODO
+
+* GY-2561
+* GY-30
+* GY-ML8511
+* GY-302
+
+
+<a name="rangefinder"></a>
+## Rangefinder
+
+### TODO
+
+* HC-04
+
+
+<a name="wireless"></a>
+## Wireless
+
+### TODO
+
+* ESP8266
+* ESP32
+* nRF24L01
+* nRF24L01+
+* nRF24L01+ SMD
+* HC-06
+* RXB6
+* RXB8
+* RXC6
+* SYN480R
 
 
 {% include ad.html %}
