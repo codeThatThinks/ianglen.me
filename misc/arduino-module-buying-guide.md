@@ -18,12 +18,22 @@ I've collected some information on cheap modules for Arduino, Raspberry Pi, etc.
 
 <div class="table"><table>
 	<tr><th>Name</th><th>DOF</th><th>Accel.</th><th>Gyro.</th><th>Mag.</th><th>Baro.</th><th>DMP</th><th>Price</th></tr>
+	<tr><td><a href="#cjmcu-9dof">CJMCU-9DOF</a></td><td>9</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td></td><td></td><td>$4-6</td></tr>
 	<tr><td><a href="#gy-80">GY-80</a></td><td>10</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td></td><td>$10-20</td></tr>
 	<tr><td><a href="#gy-81">GY-81</a></td><td>10</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td></td><td>$10-20</td></tr>
 	<tr><td><a href="#gy-85">GY-85</a></td><td>9</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td></td><td></td><td>$11-16</td></tr>
 	<tr><td><a href="#gy-291">GY-291</a></td><td>3</td><td>&#10003;</td><td></td><td></td><td></td><td></td><td>$2-3</td></tr>
 	<tr><td><a href="#gy-521">GY-521</a></td><td>6</td><td>&#10003;</td><td>&#10003;</td><td></td><td></td><td>&#10003;</td><td>$2-4</td></tr>
 </table></div>
+
+<a name="cjmcu-9dof"></a>
+### CJMCU-9DOF
+
+[![CJMCU-9DOF](/content/misc/cheap-ebay-electronics/CJMCU-9DOF-thumbnail.jpg)](/content/misc/cheap-ebay-electronics/CJMCU-9DOF.jpg)
+
+A 9-DOF IMU module with a [BMX055](https://www.bosch-sensortec.com/bst/products/all_products/bmx055) three-axis accelerometer, three-axis gyroscope, and three-axis magnetometer.
+
+It is available on eBay for about $4-6. Search "9DOF IMU" or "BMX055 IMU".
 
 <a name="gy-80"></a>
 ### GY-80
