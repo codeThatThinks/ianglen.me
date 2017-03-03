@@ -114,13 +114,18 @@ It is available on eBay for about $10-20. Search "10DOF IMU" or "GY-88".
 
 [Schematic](/content/misc/cheap-ebay-electronics/GY-291-schematic.jpg)
 
-A 3-DOF IMU with a [ADXL345](http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf) three-axis accelerometer. The GY-291 isn't technically an IMU because it lacks a gyroscope. It's basically a breakout board for the ADXL345.
+A 3-DOF IMU with an [Analog Devices ADXL345](http://www.analog.com/en/products/mems/accelerometers/adxl345.html) three-axis accelerometer. It is available on eBay for about $2-3. Search "GY-291" or "ADXL345".
 
-There are two M2.5 mounting holes and holes for an 8 pin .1" header. #4 machine screws will also fit in the mounting holes.
+Pinout: **I/O pins are not 5V tolerant! A level shifter is required if powering with 5V.**
+* VCC: 2.0 to 5.5 V (onboard regulator provides 3.3V to ADXL345)
+* CS: Chip select (unused)
+* INT1: Digital output interrupt 1
+* INT2: Digital output interrupt 2
+* SDO: Change 7-bit I2C address (LOW: 0x53, HIGH: 0x1D)
+* SDA/SDC: I2C Bus
 
-This module is capable of running off 3.3-5V, as it includes an onboard voltage regulator. **However, since this module does not include a level shifter, maximum logic voltage is 3.6V. 5V logic will fry the ADXL345.** Communication is done through I<sup>2</sup>C.
-
-It is available on eBay for about $2-3. Search "GY-291".
+Specs:
+* Accelerometer Sensitivity: &#177;2g, &#177;4g, &#177;8g, &#177;16g
 
 <a name="gy-521"></a>
 ### GY-521
