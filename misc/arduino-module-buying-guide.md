@@ -129,13 +129,20 @@ It is available on eBay for about $2-3. Search "GY-291".
 
 [Schematic](/content/misc/cheap-ebay-electronics/GY-521-schematic.jpg)
 
-A 6-DOF IMU with an [InvenSense MPU-6050](https://www.invensense.com/products/motion-tracking/6-axis/mpu-6050/) three-axis accelerometer and three-axis gyroscope that includes a digital motion processor (DMP) to perform sensor fusion.
+A 6-DOF IMU with an [InvenSense MPU-6050](https://www.invensense.com/products/motion-tracking/6-axis/mpu-6050/) three-axis accelerometer and three-axis gyroscope that includes a digital motion processor (DMP) to perform sensor fusion. It is available on eBay for about $2-4. Search "6DOF IMU" or "GY-521".
 
-Approximate board dimensions are 20.5mm x 16mm. Weight is 1.1g. There are two &#8960;3mm mounting holes that will fit M3 screws, however the capacitor near the top hole limits the head size to &#8960;4mm, so M2.5 screws might be more appropriate. and holes for an 8 pin .1" header. #4 machine screws will also fit in the mounting holes.
+Pinout: **I/O pins are not 5V tolerant! A level shifter is required if powering with 5V.**
+* VCC: 2.375 to 5.5V (onboard regulator provides 3.3V to MPU-6050)
+* SDA/SCL: I2C Bus
+* XDA/XCL: I2C Bus for external sensors
+* AD0: Change I2C address (LOW: 0x68, HIGH: 0x69)
+* INT: Digital output interrupt
 
-This module will run off 3.3-5V, as it includes an onboard voltage regulator. **However, since this module does not include a level shifter, maximum logic voltage is 3.46V. 5V logic will fry the MPU-6050.** Communication is done through I<sup>2</sup>C.
-
-It is available on eBay for about $2-4. Search "6DOF IMU" or "GY-521".
+Specs:
+* Gyroscope Sensitivity: &#177;250 &#176;/s, &#177;500 &#176;/s, &#177;1000 &#176;/s, &#177;2000 &#176;/s
+* Accelerometer Sensitivity: &#177;2g, &#177;4g, &#177;8g, &#177;16g
+* Dimensions: 20.5mm x 16mm
+* Weight: 1.1g
 
 ### TODO
 
