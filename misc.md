@@ -19,9 +19,9 @@ This is where everything else goes.
 * ianglen.me v6 - Aug 2012 to Oct 2012
 * ianglen.me v5.5 - Mar 2012 to Aug 2012
 * ianglen.me v5 - Jan 2012 to Mar 2012
-* ianglen.me v5 landing page - Dec 2011 to Jan 2012
+* [ianglen.me v5 landing page - Dec 2011 to Jan 2012]({{ site.baseurl }}/archive/ianglen.me/v5-landing/)
 * _downtime - Dec 2010 to Dec 2011_
 * Ian'sWeb v4 - Jan 2009 to Dec 2010
 * [IWEB v3 - May 2008 to Jan 2009]({{ site.baseurl }}/archive/ianglen.me/v3/)
 * [IWEB v2 - Mar 2008 to May 2008]({{ site.baseurl }}/archive/ianglen.me/v2/)
-* IWEB v1 - Jun 2008 to Mar 2008 _(lost to history)_
+* IWEB v1 - Jun 2007 to Mar 2008 _(lost to history)_
