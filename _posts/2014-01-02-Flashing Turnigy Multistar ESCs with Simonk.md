@@ -22,7 +22,7 @@ There are six pads for in system programming near the microcontroller near where
 
 I'm using my Bus Pirate to flash the firmware. I had to remove one end of the ribbon cable and move it inward in order to be able to solder each wire to each individual pad. It can be a little tricky to solder those tiny wires and still maintain the correct order.
 
-{% include image.html url="/content/flashing-turnigy-multistar-escs-with-simonk/pinout.jpg" %}
+![Pinout]({{ site.baseurl }}/content/flashing-turnigy-multistar-escs-with-simonk/pinout.jpg)
 
 If you plan on flashing many ESCs, I might be a good idea to get a clothespin a make a programming mount to make it easier to switch between boards. I decided to solder the wires directly to the pads. With only four boards, it doesn't take that much time.
 
@@ -97,6 +97,6 @@ avrdude done.  Thank you.
 
 If everything goes as planned, connect to the next ESC and repeat. Any errors that occur are probably a result of the wiring connection to the ESC, so check everything and try it again.
 
-{% include image.html url="/content/flashing-turnigy-multistar-escs-with-simonk/setup.jpg" %}
+![Flashing](/content/flashing-turnigy-multistar-escs-with-simonk/setup.jpg)
 
 And that's about it. See, it's actually quite quick and easy.

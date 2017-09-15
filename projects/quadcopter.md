@@ -40,7 +40,7 @@ The frame has been redesigned to increase its ability to withstand a crash and t
 
 ### Photos
 
-{% include image.html url="/content/projects/quadcopter/ver2.5-quadcopter.jpg" %}
+![Version 2.5](/content/projects/quadcopter/ver2.5-quadcopter.jpg)
 
 ## Version 2
 
@@ -62,11 +62,10 @@ This is an in-progress build of a 350-size H quad. It's designed to be more dura
 * FPV Transmitter: FatShark 5.8GHz 250mW w/ ImmersionRC LHCP SpiroNet antenna
 
 ### Photos
-
-{% include image.html url="/content/projects/quadcopter/ver2-assembled.jpg" %}
-{% include image.html url="/content/projects/quadcopter/ver2-frame.jpg" %}
-{% include image.html url="/content/projects/quadcopter/ver2-motors.jpg" %}
-{% include image.html url="/content/projects/quadcopter/ver2-case.jpg" %}
+![Version 2 Assembled](/content/projects/quadcopter/ver2-assembled.jpg)
+![Version 2 Frame](/content/projects/quadcopter/ver2-frame.jpg)
+![Version 2 Motors](/content/projects/quadcopter/ver2-motors.jpg)
+![Version 2 Case](/content/projects/quadcopter/ver2-case.jpg)
 
 {% include ad.html %}
 
@@ -90,8 +89,8 @@ The first version of my quadcopter was a 400-size X quad. It was constructed und
 
 ### Photos
 
-{% include image.html url="/content/projects/quadcopter/ver1-quadcopter.jpg" %}
-{% include image.html url="/content/projects/quadcopter/ver1-electronics.jpg" %}
-{% include image.html url="/content/projects/quadcopter/ver1-motors.jpg" %}
+![Version 1](/content/projects/quadcopter/ver1-quadcopter.jpg)
+![Version 1 Electronics](/content/projects/quadcopter/ver1-electronics.jpg)
+![Version 1 Motors](/content/projects/quadcopter/ver1-motors.jpg)
 
 {% include ad.html %}

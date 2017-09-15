@@ -1,0 +1,12 @@
+{% assign posts = site.posts | where:"category", include.category %}
+{% for post in posts %}
+{% if post.hidden != 1 %}
+<article class="post">
+	<time>{{ post.date | date: "%B %e, %Y" }}</time>
+	<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+	{% if post.description %}
+	<p>{{ post.excerpt }}</p>
+	{% endif %}
+</article>
+{% endif %}
+{% endfor %}

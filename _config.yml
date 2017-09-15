@@ -4,31 +4,14 @@
 
 # Basic information
 name: Ian Glen
-firstName: Ian
-lastName: Glen
-gender: Male
-description: A college student by day, electronics hacker, maker, and developer by night.
-landingDescription: A college student by day, <b>electronics hacker</b>, <b>maker</b>, and <b>developer</b> by night.
-jobTitle: Hacker, Maker, Developer
-email: ian@ianglen.me
-
-# Site Title
-title: ian<b>glen</b>
+description: EE student. Almost always working on cars, quads, or electronics.
 
 # Site Navigation
 links:
-- {name: Blog, url: /blog/}
 - {name: Projects, url: /projects/}
-- {name: Misc., url: /misc/}
+- {name: Other Stuff, url: /other/}
 - {name: Github, url: "https://github.com/codeThatThinks"}
 - {name: Email, url: "mailto:ian@ianglen.me"}
-
-# Pagination
-paginate: 5
-paginate_path: "/blog/:num/"
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-30140370-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed

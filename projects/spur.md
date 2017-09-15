@@ -19,7 +19,7 @@ None yet.
 
 ## Photos
 
-{% include image.html url="/content/projects/spur/breadboard.jpg" %}
-{% include image.html url="/content/projects/spur/grub.gif" %}
+![Breadboard](/content/projects/spur/breadboard.jpg)
+![GRUB](/content/projects/spur/grub.gif)
 
 {% include ad.html %}
