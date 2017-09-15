@@ -1,8 +1,6 @@
 ---
-layout: page
 title: Arduino Module Buying Guide
 permalink: /misc/arduino-module-buying-guide/
-excerpt: A handy reference for cheap Arduino/RasPi/DIY electronics modules available for dirt cheap on eBay, Banggood, etc.
 ---
 
 I've collected some information on cheap modules for Arduino, Raspberry Pi, etc. that can be had on eBay, Banggood, etc. for just a few bucks. There boards available for all kinds of sensors and chips, and for each chip or sensor there are many variants of breakout boards, some which are better than others. Hopefully this page helps you determine which one is best for your project as well as get it to do something useful.

@@ -1,8 +1,8 @@
 ---
 title: Flashing Turnigy Multistar ESCs with Simonk
-permalink: /blog/flashing-turnigy-multistar-escs-with-simonk/
 image: flashing-turnigy-multistar-escs-with-simonk/post.jpg
 image-position: 70%
+category: quadcopter
 ---
 
 As I have begun to learn more and more about this whole quadcopter thing, I've heard many people recommend replacing the stock firmware that comes with ESCs with a custom firmware that is specifically tuned for multicopters. The SimonK firmware, named after the creator who is known as SimonK on the forums, provides smoother throttle response and should give better all around performance when used in a multicopter configuration. Supposedly it can also increase the refresh rate and has less bugs than the stock firmware.
@@ -14,7 +14,7 @@ If you've ever used an Arduino before, flashing the firmware of an ESC isn't muc
 **Disclaimer: When flashing ESCs, there is the potential to ruin the ESC and turn in into a paperweight. Make sure that the version of SimonK being flashed has been verified as compatible with the specific ESC model, although there is no guarentee of functionality. Also note that the factory firmware on the ESC will be overwritten and unrecoverable.**
 
 
-# Hooking It Up
+### Hooking It Up
 
 To get started, I removed the green heat shrink to expose the board. Take care not to damage any of the components under the heat shrink when cutting the heat shrink.
 
@@ -22,7 +22,7 @@ There are six pads for in system programming near the microcontroller near where
 
 I'm using my Bus Pirate to flash the firmware. I had to remove one end of the ribbon cable and move it inward in order to be able to solder each wire to each individual pad. It can be a little tricky to solder those tiny wires and still maintain the correct order.
 
-![Pinout]({{ site.baseurl }}/content/flashing-turnigy-multistar-escs-with-simonk/pinout.jpg)
+{% include image.html src='/content/flashing-turnigy-multistar-escs-with-simonk/pinout.jpg' alt='Pinout' %}
 
 If you plan on flashing many ESCs, I might be a good idea to get a clothespin a make a programming mount to make it easier to switch between boards. I decided to solder the wires directly to the pads. With only four boards, it doesn't take that much time.
 
@@ -38,7 +38,7 @@ For the Bus Pirate the connections are as follows:
 The connections might be different depending on the programmer being used.
 
 
-# Flashing the Firmware
+### Flashing the Firmware
 
 Once everything was ready to go, I had to figure out which version of Simonk would work with Turnigy Multistar ESCs. Based off of [this forum post](http://www.rcgroups.com/forums/showthread.php?t=1744924), it appears that the kda version is compatible with Turnigy Multistar ESCs up to 30 amps. I downloaded the [latest version of Simonk](https://github.com/sim-/tgy/downloads), which include the hex files for each specific version.
 
@@ -97,6 +97,6 @@ avrdude done.  Thank you.
 
 If everything goes as planned, connect to the next ESC and repeat. Any errors that occur are probably a result of the wiring connection to the ESC, so check everything and try it again.
 
-![Flashing](/content/flashing-turnigy-multistar-escs-with-simonk/setup.jpg)
+{% include image.html src='/content/flashing-turnigy-multistar-escs-with-simonk/setup.jpg' alt='Flashing' %}
 
 And that's about it. See, it's actually quite quick and easy.

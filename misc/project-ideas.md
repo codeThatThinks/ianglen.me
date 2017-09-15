@@ -1,8 +1,6 @@
 ---
-layout: page
 title: Project Ideas
 permalink: /misc/project-ideas/
-excerpt: A list of ideas for projects, products, businesses, etc.
 ---
 
 Here are some ideas I've had for projects, products, businesses, etc., most of which I probably don't have time for and will never get to.

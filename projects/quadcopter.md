@@ -1,21 +1,16 @@
 ---
-layout: page
 title: Quadcopter
 category: project
 permalink: /projects/quadcopter/
-excerpt: My custom-built quadcopter.
 image: projects/quadcopter/page.jpg
+excerpt: My custom-built quadcopter.
 ---
 
 My custom-built quadcopter. Everything related to this build can be found on [GitHub](https://github.com/codeThatThinks/Quadcopter), including drawings and schematics.
 
 ## Project Updates
 
-* 02/27/2017: [Updated Frame Design](/blog/updated-frame-design/)
-* 01/05/2016: [Custom 350 H-Quad Frame](/blog/custom-350-h-quad-frame/)
-* 12/24/2015: [Quadcopter Status Update](/blog/quadcopter-status-update/)
-* 01/02/2014: [Flashing Turnigy Multistar ESCs with SimonK](/blog/flashing-turnigy-multistar-escs-with-simonk)
-* 05/19/2013: [Building a Quadcopter](/blog/building-a-quadcopter)
+{% include list-posts.html category='quadcopter' %}
 
 {% include ad.html %}
 
@@ -40,7 +35,7 @@ The frame has been redesigned to increase its ability to withstand a crash and t
 
 ### Photos
 
-![Version 2.5](/content/projects/quadcopter/ver2.5-quadcopter.jpg)
+{% include image.html src='/content/projects/quadcopter/ver2.5-quadcopter.jpg' alt='Version 2.5' %}
 
 ## Version 2
 
@@ -62,10 +57,10 @@ This is an in-progress build of a 350-size H quad. It's designed to be more dura
 * FPV Transmitter: FatShark 5.8GHz 250mW w/ ImmersionRC LHCP SpiroNet antenna
 
 ### Photos
-![Version 2 Assembled](/content/projects/quadcopter/ver2-assembled.jpg)
-![Version 2 Frame](/content/projects/quadcopter/ver2-frame.jpg)
-![Version 2 Motors](/content/projects/quadcopter/ver2-motors.jpg)
-![Version 2 Case](/content/projects/quadcopter/ver2-case.jpg)
+{% include image.html src='/content/projects/quadcopter/ver2-assembled.jpg' alt='Version 2 Assembled' %}
+{% include image.html src='/content/projects/quadcopter/ver2-frame.jpg' alt='Version 2 Frame' %}
+{% include image.html src='/content/projects/quadcopter/ver2-motors.jpg' alt='Version 2 Motors' %}
+{% include image.html src='/content/projects/quadcopter/ver2-case.jpg' alt='Version 2 Case' %}
 
 {% include ad.html %}
 
@@ -89,8 +84,8 @@ The first version of my quadcopter was a 400-size X quad. It was constructed und
 
 ### Photos
 
-![Version 1](/content/projects/quadcopter/ver1-quadcopter.jpg)
-![Version 1 Electronics](/content/projects/quadcopter/ver1-electronics.jpg)
-![Version 1 Motors](/content/projects/quadcopter/ver1-motors.jpg)
+{% include image.html src='/content/projects/quadcopter/ver1-quadcopter.jpg' alt='Version 1' %}
+{% include image.html src='/content/projects/quadcopter/ver1-electronics.jpg' alt='Version 1 Electronics' %}
+{% include image.html src='/content/projects/quadcopter/ver1-motors.jpg' alt='Version 1 Motors' %}
 
 {% include ad.html %}

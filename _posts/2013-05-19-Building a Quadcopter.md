@@ -1,7 +1,7 @@
 ---
 title: Building a Quadcopter
-permalink: /blog/building-a-quadcopter/
 image: building-a-quadcopter.jpg
+category: quadcopter
 ---
 
 Robots are awesome, and I've been wanting to build something robotic forever. Anytime I'd see an RC helicopter or something else robotic on Hackaday or Make Magazine, I'd always think to myself, *I really need to build something like that*.
@@ -11,7 +11,7 @@ Well, I've finally decided to build a quadcopter: an awesome robotic flying mach
 Of course, building a quadcopter is no small task. Even for someone that has spent countless hours tinkering with Arduinos and hobby electronics, building a quadcopter from scratch (and cheaply) takes a lot of skill. This will be a good test of my abilities.
 
 
-## Goals
+### Goals
 
 **Inexpensive**: I find it depressing when people spend many hundreds of dollars building a quadcopter. Sure, it's big and can carry your DSLR for you, but not much is gained between a cheap and expensive quadcopter. For this build, I'll try to keep the costs down to a minimum. As a result, I expect to build a small to medium-sized quadcopter.
 
@@ -24,7 +24,7 @@ Of course, building a quadcopter is no small task. Even for someone that has spe
 {% include ad.html %}
 
 
-## Design Considerations
+### Design Considerations
 
 After some extensive research, it is clear that there are a lot of things that need to go into the design. This includes the frame, motors, motor speed controllers, power regulation, telemetry, communications, extra sensors, video, ground control, and failsafe, just to name a few.
 
@@ -35,7 +35,7 @@ The traditional 8-bit microcontroller, which is used in Arduinos, isn't going to
 An RF module could easily be one of the more costly parts for this project. However, after some looking around on eBay, it seems that Nordic has an inexpensive family of RF transceivers that will work well with the amount of data being transmitted. I've chosen a 2.4GHz module from them that provides six data streams, allowing video, sensor, and control data to be transmitted simultaneously.
 
 
-## Possible Pitfalls
+### Possible Pitfalls
 
 Again, building a quadcopter from scratch at home is not an easy task. The design, fabrication, and testing all pose possible pitfalls.
 

@@ -1,8 +1,9 @@
 ---
-layout: home
+layout: landing
 permalink: /
 ---
-<h2>Recent Posts</h2>
+## Recent Posts
+
 {% for post in site.posts limit: 4 %}
 <article class="post">
 	<time>{{ post.date | date: "%B %e, %Y" }}</time>

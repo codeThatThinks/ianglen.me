@@ -1,7 +1,7 @@
 ---
 title: Quadcopter Status Update
-permalink: /blog/quadcopter-status-update/
 image: quadcopter-status-update.jpg
+category: quadcopter
 ---
 
 It's been quite a long time since I posted anything about my quadcopter and a lot has happened. Which includes me crashing it and destroying the frame.

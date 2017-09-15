@@ -1,8 +1,6 @@
 ---
-layout: page
 title: Other Stuff
 permalink: /other/
-excerpt: This is where everything else goes.
 ---
 
 This is where everything else goes.

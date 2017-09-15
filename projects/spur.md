@@ -1,10 +1,9 @@
 ---
-layout: page
 title: Spur
 category: project
 permalink: /projects/spur/
-excerpt: Choose which operating system to boot with a physical switch.
 image: projects/spur/page.jpg
+excerpt: Spur makes it really easy to boot multiple OSes on your computer. In a nutshell, it is a USB device with a toggle switch.
 ---
 
 This was our project for HackOHI/O 2016. The team consisted of [Cameron Sinko](https://github.com/csinko), [Stephen Kocsis](https://github.com/TheRCguy), and myself.
@@ -19,7 +18,7 @@ None yet.
 
 ## Photos
 
-![Breadboard](/content/projects/spur/breadboard.jpg)
-![GRUB](/content/projects/spur/grub.gif)
+{% include image.html src='/content/projects/spur/breadboard.jpg' alt='Breadboard' %}
+{% include image.html src='/content/projects/spur/grub.gif' alt='GRUB' %}
 
 {% include ad.html %}
