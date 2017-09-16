@@ -2,23 +2,20 @@
 title: Spur
 category: project
 permalink: /projects/spur/
-image: projects/spur/page.jpg
-excerpt: Spur makes it really easy to boot multiple OSes on your computer. In a nutshell, it is a USB device with a toggle switch.
+image: spur-page.jpg
+excerpt: Force which OS your computer boots into using a physical toggle switch. This was our project for HackOHI/O 2016.
 ---
 
-This was our project for HackOHI/O 2016. The team consisted of [Cameron Sinko](https://github.com/csinko), [Stephen Kocsis](https://github.com/TheRCguy), and myself.
+Check out this project on [GitHub](https://github.com/codeThatThinks/spur).
+
+{% include image.html src='/content/spur-grub.gif' alt='GRUB loads off of the Arduino.' %}
 
 Spur makes it really easy to boot multiple OSes on your computer. In a nutshell, it is a USB device with a toggle switch. Depending on the position of the switch, it will force your computer to boot one OS or another. No longer do you need to spam the F12 key and wait for the boot menu to load to switch between operating systems. After configuring spur, simply plug it in, flick the switch, and boot.
 
-[Take a look at the project on GitHub.](https://github.com/csinko/spur)
+This was our project for HackOHI/O 2016. The team consisted of [Cameron Sinko](https://github.com/csinko), [Stephen Kocsis](https://github.com/TheRCguy), and myself.
 
-## Project Updates
+Using LUFA-AVR, we set up an Arduino Leonardo to show up as a USB flash drive. Arduino loads GRUB off of an SD card and sends it to the computer. Depending on the position of the toggle switch, the Arduino changes it's drive label into order to communicate the user's choice to GRUB. A specially crafted GRUB config file reads this label and loads a predefined UEFI executable, thus loading the operating system.
 
-None yet.
-
-## Photos
-
-{% include image.html src='/content/projects/spur/breadboard.jpg' alt='Breadboard' %}
-{% include image.html src='/content/projects/spur/grub.gif' alt='GRUB' %}
+{% include image.html src='/content/spur-breadboard.jpg' alt='The Arduino wired up to an SD card reader.' %}
 
 {% include ad.html %}
