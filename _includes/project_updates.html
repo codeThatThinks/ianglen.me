@@ -1,0 +1,13 @@
+{% assign slug = page.title | slugify:default %}
+{% assign updates = site.posts | where:"category","project-update" | where:"project",slug %}
+{% assign num_updates = updates | size %}
+{% if num_updates > 0 %}
+### Project Updates
+{% for update in updates %}
+<article class="post">
+    <time>{{ update.date | date: "%B %e, %Y" }}</time>
+    <h4><a href="{{ update.url }}">{{ update.title }}</a></h4>
+    <p>{{ update.excerpt }}</p>
+</article>
+{% endfor %}
+{% endif %}
