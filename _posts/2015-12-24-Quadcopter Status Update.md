@@ -1,7 +1,9 @@
 ---
 title: Quadcopter Status Update
+permalink: /projects/400mm-x-quadcopter/updates/quadcopter-status-update/
+category: project-update
+project: 400mm-x-quadcopter
 image: quadcopter-status-update.jpg
-category: quadcopter
 ---
 
 It's been quite a long time since I posted anything about my quadcopter and a lot has happened. Which includes me crashing it and destroying the frame.

@@ -1,12 +1,14 @@
 ---
 title: Building a Quadcopter
+permalink: /projects/400mm-x-quadcopter/updates/building-a-quadcopter/
+category: project-update
+project: 400mm-x-quadcopter
 image: building-a-quadcopter.jpg
-category: quadcopter
 ---
 
-Robots are awesome, and I've been wanting to build something robotic forever. Anytime I'd see an RC helicopter or something else robotic on Hackaday or Make Magazine, I'd always think to myself, *I really need to build something like that*.
-
 Well, I've finally decided to build a quadcopter: an awesome robotic flying machine that is quite an improvement on the traditional RC helicopter.
+
+Robots are awesome, and I've been wanting to build something robotic forever. Anytime I'd see an RC helicopter or something else robotic on Hackaday or Make Magazine, I'd always think to myself, *I really need to build something like that*.
 
 Of course, building a quadcopter is no small task. Even for someone that has spent countless hours tinkering with Arduinos and hobby electronics, building a quadcopter from scratch (and cheaply) takes a lot of skill. This will be a good test of my abilities.
 

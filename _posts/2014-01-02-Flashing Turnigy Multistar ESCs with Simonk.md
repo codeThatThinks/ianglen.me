@@ -1,11 +1,15 @@
 ---
 title: Flashing Turnigy Multistar ESCs with Simonk
-image: flashing-turnigy-multistar-escs-with-simonk/post.jpg
+permalink: /projects/400mm-x-quadcopter/updates/flashing-escs/
+category: project-update
+project: 400mm-x-quadcopter
+image: flashing-escs.jpg
 image-position: 70%
-category: quadcopter
 ---
 
-As I have begun to learn more and more about this whole quadcopter thing, I've heard many people recommend replacing the stock firmware that comes with ESCs with a custom firmware that is specifically tuned for multicopters. The SimonK firmware, named after the creator who is known as SimonK on the forums, provides smoother throttle response and should give better all around performance when used in a multicopter configuration. Supposedly it can also increase the refresh rate and has less bugs than the stock firmware.
+As I have begun to learn more and more about this whole quadcopter thing, I've heard many people recommend replacing the stock firmware that comes with ESCs with a custom firmware, Simonk, that is specifically tuned for multicopters.
+
+The SimonK firmware, named after the creator who is known as SimonK on the forums, provides smoother throttle response and should give better all around performance when used in a multicopter configuration. Supposedly it can also increase the refresh rate and has less bugs than the stock firmware.
 
 So I decided to flash my four Turnigy Multistar 30 amp ESCs which are part of my quadcopter.
 
@@ -18,13 +22,15 @@ If you've ever used an Arduino before, flashing the firmware of an ESC isn't muc
 
 To get started, I removed the green heat shrink to expose the board. Take care not to damage any of the components under the heat shrink when cutting the heat shrink.
 
+{% include image.html src='/content/flashing-escs-pinout.jpg' alt='Pinout' %}
+
 There are six pads for in system programming near the microcontroller near where the sigal wires connect to the board. In my case, I had to desolder those wires in order to get access to the pads.
 
 I'm using my Bus Pirate to flash the firmware. I had to remove one end of the ribbon cable and move it inward in order to be able to solder each wire to each individual pad. It can be a little tricky to solder those tiny wires and still maintain the correct order.
 
-{% include image.html src='/content/flashing-turnigy-multistar-escs-with-simonk/pinout.jpg' alt='Pinout' %}
-
 If you plan on flashing many ESCs, I might be a good idea to get a clothespin a make a programming mount to make it easier to switch between boards. I decided to solder the wires directly to the pads. With only four boards, it doesn't take that much time.
+
+{% include ad.html %}
 
 For the Bus Pirate the connections are as follows:
 
@@ -37,6 +43,7 @@ For the Bus Pirate the connections are as follows:
 
 The connections might be different depending on the programmer being used.
 
+{% include image.html src='/content/flashing-escs-soldered.jpg' alt='Wires Soldered to ESC' %}
 
 ### Flashing the Firmware
 
@@ -97,6 +104,8 @@ avrdude done.  Thank you.
 
 If everything goes as planned, connect to the next ESC and repeat. Any errors that occur are probably a result of the wiring connection to the ESC, so check everything and try it again.
 
-{% include image.html src='/content/flashing-turnigy-multistar-escs-with-simonk/setup.jpg' alt='Flashing' %}
+{% include image.html src='/content/flashing-escs-flashing.jpg' alt='Flashing' %}
 
 And that's about it. See, it's actually quite quick and easy.
+
+{% include ad.html %}
