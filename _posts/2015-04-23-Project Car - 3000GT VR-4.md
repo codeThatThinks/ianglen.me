@@ -1,12 +1,13 @@
 ---
-title: Project Car 3000gt VR-4
-category: project
+title: Project Car - 3000gt VR-4
 permalink: /projects/3000gt/
+category: project
 image: 3000gt-page.jpg
-excerpt: My daily driver/project car is a 1993 Mitsubishi 3000gt VR-4.
 ---
 
-This is where I document various mods, upgrades, and fixes I've done to my daily driver/project car, a 1993 Mitsubishi 3000gt VR-4.
+My daily driver/project car is a 1993 Mitsubishi 3000gt VR-4.
+
+This is where I document various mods, upgrades, and fixes.
 
 {% include image.html src='/content/3000gt-car.jpg' alt='Car' %}
 {% include image.html src='/content/3000gt-car-2.jpg' alt='Car' %}
@@ -43,5 +44,4 @@ The car is mostly stock except for the following mods:
   * two 12" Alpine Baseline subwoofers
   * Alpine subwoofer amp
 
-### Project Updates
-{% include list-pages.html category='3000gt' %}
+{% include ad.html %}
