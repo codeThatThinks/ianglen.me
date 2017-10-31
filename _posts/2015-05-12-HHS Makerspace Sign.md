@@ -1,16 +1,15 @@
 ---
 title: HHS Makerspace Sign
-category: project
 permalink: /projects/hhs-makerspace-sign/
+category: project
 image: hhs-makerspace-sign-page.jpg
-excerpt: An LED sign for the Hudson High School makerspace. It features the HHS ship and "MAKERSPACE" spelled out in LEDs.
 ---
+
+An LED sign for the Hudson High School makerspace. It features the HHS ship and "MAKERSPACE" spelled out in LEDs.
 
 Check this project out on [GitHub](https://github.com/codeThatThinks/hhs-makerspace-sign).
 
 {% include image.html src='/content/hhs-makerspace-sign.jpg' alt='The completed sign.' %}
-
-This is an LED sign that I made for the Hudson High School makerspace. It features the HHS ship and "MAKERSPACE" spelled out in 0602 LEDs.
 
 {% include image.html src='/content/hhs-makerspace-sign-pcb.png' alt='The finished PCB layout.' %}
 
