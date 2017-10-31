@@ -1,7 +1,9 @@
 ---
 title: Updated Frame Design
-image: updated-frame-design/post.jpg
-category: quadcopter
+permalink: /projects/350mm-h-quadcopter/updates/updated-frame-design/
+category: project-update
+project: 350mm-h-quadcopter
+image: updated-frame-design.jpg
 ---
 
 It's been a really, really long time since I've posted anything here. I've been extremely busy with school stuff and I haven't had the time or motivation to keep things documented. Regardless, a lot of progress has been made since the beginning of 2016. The second version of my quadcopter frame saw its first flight and first crash, which led me to realize a few of the major issues with the design and cause me to get to work on a revision.
@@ -13,7 +15,7 @@ It turns out the main reason for the crash was because the default PID values in
 
 The crash also revealed that the motor mounts were a weak point in the design. The el-cheapo mounts I bought off Amazon couldn't handle the force of the motors when they hit the ground, and the mounting screws ripped right through the 1mm carbon fiber plate that the motors were mounted to. The wall thickness of the tubes was also a little on the thin side, as I was able to crack one tube when I tightened the motor mounts.
 
-{% include image.html src='/content/updated-frame-design/el-cheapo-motor-mount.jpg' alt='Motor Mount' %}
+{% include image.html src='/content/updated-frame-design-el-cheapo-motor-mount.jpg' alt='Motor Mount' %}
 
 I was aware at this point that I needed to come up with a better way to attach the motors, and while I was at it, I should also address other minor issues that I discovered. The next revision of the frame needed stronger motor mounts, stronger tubes, improved rigidity of the center section, and reduced weight.
 
@@ -31,11 +33,11 @@ While I was at it, I also picked up counter-clockwise prop adapters for two of t
 
 ### Frame Design Changes
 
-{% include image.html src='/content/updated-frame-design/frame-perspective.jpg' alt='Frame Perspective' %}
+{% include image.html src='/content/updated-frame-design-perspective.jpg' alt='Frame Perspective' %}
 
 The two main goals for the updated frame were strength and weight reduction. I reduced the OD of the tubes from 25mm to 16mm and increased the wall thickness from 1mm to 2mm. The previous build had a big bundle of silicone wire to get power to the ESCs, so in order to save weight, I elected to replace the bottom carbon fiber plate with a power distribution board. This would allow me to clean up the wiring as well as add some cool features that I've seen on other PDBs, such as a current sensor. The old frame had vertical carbon fiber pieces that pressed into slots in the bottom and top plates, which made the frame a pain to assemble. I figured that they don't provide enough value to justify their weight, so I got rid of them.
 
-{% include image.html src='/content/updated-frame-design/frame-underside.jpg' alt='Frame Underside' %}
+{% include image.html src='/content/updated-frame-design-underside.jpg' alt='Frame Underside' %}
 
 I also made a few other changes that made the design a little cleaner. I designed a motor mount that is no bigger than the motor itself and only includes hardware that screws directly into the base of the motor. Rather than hang an XT90 pigtail out the back of the quad, I designed a panel mount bracket so that the connector could be mounted directly to the top plate. This also gives me something to pull against which makes it easier to unplug the battery. I bought a short U.FL to SMA pigtail so that the FPV transmitter antenna could mount directly to the top plate.
 
