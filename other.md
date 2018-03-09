@@ -6,4 +6,4 @@ permalink: /other/
 This is where everything else goes.
 
 * [Project Ideas]({{ site.baseurl }}/misc/project-ideas)
-* [Arduino Module Buying Guide]({{ site.baseurl }}/misc/arduino-module-buying-guide/)
+* [Cheap Module and Breakout Board Buying Guide]({{ site.baseurl }}/misc/cheap-module-and-breakout-board-buying-guide/)
