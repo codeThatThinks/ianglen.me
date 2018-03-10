@@ -15,7 +15,7 @@ Here are some of my personal notes that I use as a quick reference.
 * Drill Sizes
 * Material Properties
 * Machine Screw Sizes
-* Screw Head Styles
+* [Screw Heads]({{ site.baseurl }}/other/reference/screw-heads)
 * Resistor & Capacitor Values
 * Wire Sizes & Ampacities
 * [Port Speeds]({{ site.baseurl }}/other/reference/port-speeds)
