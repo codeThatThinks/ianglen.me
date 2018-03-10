@@ -22,7 +22,7 @@ If you discover a module that isn't yet on this page, please [let me know](mailt
 
 Inertial measurement units (or IMUs) are able to measure relative motion. Accelerometers measure linear acceleration along an axis, gyroscopes measure the rate of rotation about an axis, magnetometers measure the strength of Earth's magnetic field (or any magnetic field) along an axis, and barometers measure air pressure (and sometimes air temperature). Using sensor fusion algorithms, relative position and attitude can be calculated. Most of the time these calculations must be performed by the device reading the sensor, such as an Arduino, although certain sensors include digital motion processing (DMP) and can perform these calculations themselves. Degrees of freedom (DOF) are the total number of measurement axes. For example, an IMU with a three-axis accelerometer and a three-axis gyroscope would have 6 degrees of freedom.
 
-<div class="table"><table>
+<div class="table"><div class="table-container"><table>
 	<tr><th>Name</th><th>DOF</th><th>Accel.</th><th>Gyro.</th><th>Mag.</th><th>Baro.</th><th>DMP</th><th>Price</th></tr>
 	<tr><td><a href="#cjmcu-9dof">CJMCU-9DOF</a></td><td>9</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td></td><td></td><td>$4-6</td></tr>
 	<tr><td><a href="#gy-80">GY-80</a></td><td>10</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td></td><td>$10-20</td></tr>
@@ -31,7 +31,7 @@ Inertial measurement units (or IMUs) are able to measure relative motion. Accele
 	<tr><td><a href="#gy-88">GY-88</a></td><td>10</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>&#10003;</td><td>$10-20</td></tr>
 	<tr><td><a href="#gy-291">GY-291</a></td><td>3</td><td>&#10003;</td><td></td><td></td><td></td><td></td><td>$2-3</td></tr>
 	<tr><td><a href="#gy-521">GY-521</a></td><td>6</td><td>&#10003;</td><td>&#10003;</td><td></td><td></td><td>&#10003;</td><td>$2-4</td></tr>
-</table></div>
+</table></div></div>
 
 <a name="cjmcu-9dof"></a>
 ### CJMCU-9DOF
