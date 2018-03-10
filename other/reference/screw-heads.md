@@ -95,7 +95,7 @@ Size codes are arbitrary. Larger numbers indicate larger sizes.
     <tr><td>T3</td><td>0.046</td><td>1.10</td><td></td></tr>
     <tr><td>T4</td><td>0.050</td><td>1.28</td><td></td></tr>
     <tr><td>T5</td><td>0.055</td><td>1.42</td><td></td></tr>
-    <tr><td>T6</td><td>0.066</td><td>1.70</td><td></td></tr>
+    <tr><td>T6</td><td>0.066</td><td>1.70</td><td>&#10003;</td></tr>
     <tr><td>T7</td><td>0.078</td><td>1.99</td><td>&#10003;</td></tr>
     <tr><td>T8</td><td>0.090</td><td>2.31</td><td>&#10003;</td></tr>
     <tr><td>T9</td><td>0.098</td><td>2.50</td><td>&#10003;</td></tr>
