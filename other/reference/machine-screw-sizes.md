@@ -1,6 +1,6 @@
 ---
 title: Screw Heads
-permalink: /other/reference/screw-heads/
+permalink: /other/reference/machine-screw-sizes/
 ---
 
 Common machine screw sizes.
