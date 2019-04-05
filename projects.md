@@ -10,6 +10,5 @@ permalink: /projects/
 <article class="post">
     <time>{{ project_items[0] | date: "%B %e, %Y" }}</time>
     <h3><a href="{{ project_items[3] }}">{{ project_items[2] }}</a></h3>
-    <p>{{ project_items[4] }}</p>
 </article>
 {% endfor %}

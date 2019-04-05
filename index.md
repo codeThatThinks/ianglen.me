@@ -7,8 +7,7 @@ permalink: /
 {% for post in site.posts limit: 4 %}
 <article class="post">
 	<time>{{ post.date | date: "%B %e, %Y" }}</time>
-	<h3><a href="{{ post.url }}">{% if post.category == "project-update" %}Project Update: {% endif %}{{ post.title }}</a></h3>
-	<p>{{ post.excerpt }}</p>
+	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 </article>
 {% endfor %}
 {% assign total_posts = site.posts | size %}
