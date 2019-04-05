@@ -228,6 +228,3 @@ GPS modules provide absolute position, speed over ground, and accurate time.
 * RXB8
 * RXC6
 * SYN480R
-
-
-{% include ad.html %}

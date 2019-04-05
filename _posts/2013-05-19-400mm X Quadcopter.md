@@ -24,12 +24,8 @@ Many naive design choices were made, and while it flew, it was not durable and d
 * Receiver: Turnigy 9X8C v2 8ch 2.4GHz
 * Telemetry: cheap clone of 3DR Telemetry Module 915mHz
 
-{% include ad.html %}
-
 ### Photos
 {% include image.html src='/content/400mm-x-quadcopter-overview.jpg' alt='Quadcopter' %}
 {% include image.html src='/content/400mm-x-quadcopter-electronics.jpg' alt='Electronics' %}
 {% include image.html src='/content/400mm-x-quadcopter-electronics-2.jpg' alt='Electronics Alternate View' %}
 {% include image.html src='/content/400mm-x-quadcopter-motors.jpg' alt='Motors' %}
-
-{% include ad.html %}

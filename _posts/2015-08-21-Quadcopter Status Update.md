@@ -17,5 +17,3 @@ It turns out that the IMU was also at fault for the crash. To keep costs down, I
 My guess is that after no longer than 20 seconds in the air, I fried the IMU module and the quad fell out of the sky, smashing into the ground and destroying the frame.
 
 Now that I'm off for winter break and have a bunch more free time, I'll focus on building a new frame, replacing the flight controller with something more reliable, and redoing motor and prop calculations in order to boost efficiency and flight time. I'm thinking about switching to a Naze32, as I was unaware until recently how inexpensive they were and that they run [baseflight](https://github.com/multiwii/baseflight), a fork of Multiwii. I'll try to post more updates in the next few weeks as I refurbish my quad.
-
-{% include ad.html %}

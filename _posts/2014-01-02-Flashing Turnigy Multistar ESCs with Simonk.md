@@ -30,8 +30,6 @@ I'm using my Bus Pirate to flash the firmware. I had to remove one end of the ri
 
 If you plan on flashing many ESCs, I might be a good idea to get a clothespin a make a programming mount to make it easier to switch between boards. I decided to solder the wires directly to the pads. With only four boards, it doesn't take that much time.
 
-{% include ad.html %}
-
 For the Bus Pirate the connections are as follows:
 
 * Bus Pirate MOSI &rarr; MOSI
@@ -107,5 +105,3 @@ If everything goes as planned, connect to the next ESC and repeat. Any errors th
 {% include image.html src='/content/flashing-escs-flashing.jpg' alt='Flashing' %}
 
 And that's about it. See, it's actually quite quick and easy.
-
-{% include ad.html %}

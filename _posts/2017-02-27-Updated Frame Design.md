@@ -40,6 +40,3 @@ The two main goals for the updated frame were strength and weight reduction. I r
 {% include image.html src='/content/updated-frame-design-underside.jpg' alt='Frame Underside' %}
 
 I also made a few other changes that made the design a little cleaner. I designed a motor mount that is no bigger than the motor itself and only includes hardware that screws directly into the base of the motor. Rather than hang an XT90 pigtail out the back of the quad, I designed a panel mount bracket so that the connector could be mounted directly to the top plate. This also gives me something to pull against which makes it easier to unplug the battery. I bought a short U.FL to SMA pigtail so that the FPV transmitter antenna could mount directly to the top plate.
-
-
-{% include ad.html %}

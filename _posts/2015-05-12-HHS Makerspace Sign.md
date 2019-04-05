@@ -34,5 +34,3 @@ I initially had trouble with the LEDs getting too hot to touch. They were operat
 {% include image.html src='/content/hhs-makerspace-sign-mounting.jpg' alt='Each PCB is mounted to the acrylic using spacers and #2 screws.' %}
 
 This project is open source hardware. It is released under the MIT license. You can find the complete schematics, board layouts, and bill of materials over on [GitHub](https://github.com/codeThatThinks/hhs-makerspace-sign).
-
-{% include ad.html %}

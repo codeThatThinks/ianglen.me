@@ -23,8 +23,6 @@ Of course, building a quadcopter is no small task. Even for someone that has spe
 
 **Long Flight Time**: A while back, I bought a [Syma S107 helicopter](http://www.amazon.com/Syma-S107-S107G-Helicopter-Colors/dp/8499000606). It was a fantastically easy little helicopter to fly, and fairly inexpensive too. The only thing about it that really bugged me was the flight time. 15 minute charge time, 5 minute fly time really wasn't fitting for an ultralight, tiny helicopter. A quadcopter that can spend some time in the air would definitely be worth it to me.
 
-{% include ad.html %}
-
 
 ### Design Considerations
 
@@ -48,5 +46,3 @@ ARM and 8-bit are two different architectures. Many quadcopter projects out ther
 Due to the cheapness of this project, I'll probably find myself salvaging parts off dead electronics, including the camera. I plan on using a module from a cell phone, though interfacing with it might be difficult if I cannot find the proper datasheets (although I assume it is simply I2C).
 
 In the end, getting something that at least flies will be a great achievement. Over the course of the next few weeks, I'll keep updated with the progress of the build. More blog posts will follow detailing each individual section of the design, as well as details on the fabrication.
-
-{% include ad.html %}

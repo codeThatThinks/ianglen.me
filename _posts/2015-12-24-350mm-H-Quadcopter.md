@@ -32,8 +32,6 @@ Everything related to this build can be found on [GitHub](https://github.com/cod
 ### Photos
 {% include image.html src='/content/350mm-h-quadcopter-overview2.jpg' alt='Revised design' %}
 
-{% include ad.html %}
-
 ### Specs (Original Design)
 
 * Frame: Custom 350mm; 25mm carbon fiber tubes, 1.5mm carbon fiber plate
@@ -52,5 +50,3 @@ Everything related to this build can be found on [GitHub](https://github.com/cod
 {% include image.html src='/content/350mm-h-quadcopter-original-frame.jpg' alt='Original Design Frame' %}
 {% include image.html src='/content/350mm-h-quadcopter-original-motors.jpg' alt='Original Design Motors' %}
 {% include image.html src='/content/350mm-h-quadcopter-original-case.jpg' alt='Original Design Case' %}
-
-{% include ad.html %}

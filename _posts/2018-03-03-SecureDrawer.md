@@ -10,5 +10,3 @@ SecureDrawer is a device that can be attached to any drawer and uses Bluetooth L
 {% include youtube.html url='https://www.youtube.com/embed/_EFg5OU0XbE' %}
 
 During RevolutionUC 2018, we built a prototype using an Arduino Pro Mini to actuate a servo which moves the locking mechanism. A 9DOF IMU module detects vibration and can be used to determine if the drawer is being tampered with. A piezo buzzer and RGB led provide cues for when the drawer locks, unlocks, or is left open.
-
-{% include ad.html %}

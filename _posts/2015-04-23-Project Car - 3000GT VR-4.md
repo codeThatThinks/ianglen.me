@@ -43,5 +43,3 @@ The car is mostly stock except for the following mods:
   * Pioneer speakers
   * two 12" Alpine Baseline subwoofers
   * Alpine subwoofer amp
-
-{% include ad.html %}

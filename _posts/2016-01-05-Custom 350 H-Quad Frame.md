@@ -25,5 +25,3 @@ It took me a few days to fabricate the carbon fiber parts, as I hand-cut them us
 {% include image.html src='/content/custom-350-h-quad-frame-case.jpg' alt='Case' %}
 
 After all that work, I'm left with a very cool looking frame that has plenty of room to mount components, which should result in a very clean quadcopter with very good cable management.
-
-{% include ad.html %}
