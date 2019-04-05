@@ -13,7 +13,7 @@ Everything related to this build can be found on [GitHub](https://github.com/cod
 
 {% include image.html src='/content/350mm-h-quadcopter-overview.jpg' alt='350mm H Quad' %}
 
-{% include project_updates.html %}
+{% include project_posts.html %}
 
 ### Specs
 

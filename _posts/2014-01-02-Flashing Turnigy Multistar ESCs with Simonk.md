@@ -1,7 +1,7 @@
 ---
 title: Flashing Turnigy Multistar ESCs with Simonk
-permalink: /projects/400mm-x-quadcopter/updates/flashing-escs/
-category: project-update
+permalink: /projects/400mm-x-quadcopter/flashing-escs/
+category: project-post
 project: 400mm-x-quadcopter
 image: flashing-escs.jpg
 image-position: 70%

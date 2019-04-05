@@ -1,7 +1,7 @@
 ---
 title: Custom 350 H-Quad Frame
-permalink: /projects/350mm-h-quadcopter/updateds/custom-350-h-quad-frame/
-category: project-update
+permalink: /projects/350mm-h-quadcopter/custom-350-h-quad-frame/
+category: project-post
 project: 350mm-h-quadcopter
 image: custom-350-h-quad-frame.jpg
 ---
