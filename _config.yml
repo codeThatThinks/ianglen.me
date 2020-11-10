@@ -4,14 +4,15 @@
 
 # Basic information
 name: Ian Glen
-description: EE student. Almost always working on cars, quads, or electronics.
+description: Hardware Engineer @ BoxCast. Working on cars and cool projects in my free time.
+bio: Hardware Engineer @ <a href="https://boxcast.com">BoxCast</a>. Working on cars and cool projects in my free time.
 
 # Site Navigation
 links:
-- {name: Home, url: /}
 - {name: Projects, url: /projects/}
-- {name: Other Stuff, url: /other/}
+- {name: Notes, url: "https://notes.ianglen.me"}
 - {name: GitHub, url: "https://github.com/codeThatThinks"}
+- {name: Instagram, url: "https://instagram.com/codeThatThinks"}
 - {name: Email, url: "mailto:ian@ianglen.me"}
 
 # Used for Sitemap.xml and your RSS feed
