@@ -9,6 +9,6 @@ permalink: /projects/
 {% assign project_items = project | split:"|" %}
 <article>
     <time>{{ project_items[0] | date: "%F" }}</time>
-    <a href="{{ project_items[3] }}">{{ project_items[2] }}</a>
+    <span><a href="{{ project_items[3] }}">{{ project_items[2] }}</a></span>
 </article>
 {% endfor %}
