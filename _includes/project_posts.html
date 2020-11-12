@@ -1,12 +1,7 @@
 {% assign slug = page.title | slugify:default %}
 {% assign project_posts = site.posts | where:"category","project-post" | where:"project",slug %}
-{% assign num_project_posts = project_posts | size %}
-{% if num_project_posts > 0 %}
-### Project Posts
 {% for project_post in project_posts %}
-<article class="post">
-    <time>{{ project_post.date | date: "%B %e, %Y" }}</time>
-    <h4><a href="{{ project_post.url }}">{{ project_post.title }}</a></h4>
-</article>
+<h3><a href="{{ project_post.url }}">{{ project_post.title }}</a></h3>
+<time>{{ project_post.date | date: "%F" }}</time>
+{{ project_post.content }}
 {% endfor %}
-{% endif %}
