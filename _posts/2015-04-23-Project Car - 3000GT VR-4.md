@@ -2,7 +2,7 @@
 title: Project Car - 3000gt VR-4
 permalink: /projects/3000gt/
 category: project
-image: 3000gt-page.jpg
+image: 3000gt.jpg
 ---
 
 My daily driver/project car is a 1993 Mitsubishi 3000gt VR-4.

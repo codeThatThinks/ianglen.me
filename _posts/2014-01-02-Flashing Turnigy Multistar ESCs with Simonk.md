@@ -4,7 +4,6 @@ permalink: /projects/400mm-x-quadcopter/flashing-escs/
 category: project-post
 project: 400mm-x-quadcopter
 image: flashing-escs.jpg
-image-position: 70%
 ---
 
 As I have begun to learn more and more about this whole quadcopter thing, I've heard many people recommend replacing the stock firmware that comes with ESCs with a custom firmware, Simonk, that is specifically tuned for multicopters.

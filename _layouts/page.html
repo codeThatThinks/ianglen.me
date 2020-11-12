@@ -5,7 +5,7 @@
 		{% include meta.html %}
 	</head>
 	<body>
-		<header{% if page.image %} style="background-image:url('/img/content/{{ page.image }}')"{% endif %}>
+		<header{% if page.image %} style="background-image:url('/img/content/bg/{{ page.image }}')"{% endif %}>
 			<h1><a href="/">{{ site.name }}</a></h1>
 			<nav>
 				{% for link in site.links %}

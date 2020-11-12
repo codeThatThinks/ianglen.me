@@ -2,7 +2,7 @@
 title: HHS Makerspace Sign
 permalink: /projects/hhs-makerspace-sign/
 category: project
-image: hhs-makerspace-sign-page.jpg
+image: hhs-makerspace-sign.jpg
 ---
 
 An LED sign for the Hudson High School makerspace. It features the HHS ship and "MAKERSPACE" spelled out in LEDs.

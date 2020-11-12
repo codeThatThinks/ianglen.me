@@ -2,7 +2,7 @@
 title: Bubble Tank
 permalink: /projects/bubble-tank/
 category: project
-image: bubble-tank-page.jpg
+image: bubble-tank.jpg
 ---
 
 A robot who's sole purpose is to drive around and shoot bubbles.
