@@ -7,8 +7,8 @@ permalink: /projects/
 
 {% for project in sorted_projects %}
 {% assign project_items = project | split:"|" %}
-<article class="post">
-    <time>{{ project_items[0] | date: "%B %e, %Y" }}</time>
-    <h3><a href="{{ project_items[3] }}">{{ project_items[2] }}</a></h3>
+<article>
+    <time>{{ project_items[0] | date: "%F" }}</time>
+    <a href="{{ project_items[3] }}">{{ project_items[2] }}</a>
 </article>
 {% endfor %}

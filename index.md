@@ -2,15 +2,13 @@
 layout: landing
 permalink: /
 ---
-## Recent
+## Recent Posts
 
 {% for post in site.posts limit: 4 %}
-<article class="post">
-	<time>{{ post.date | date: "%B %e, %Y" }}</time>
-	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+<article>
+	<time>{{ post.date | date: "%F" }}</time>
+	<a href="{{ post.url }}">{{ post.title }}</a>
 </article>
 {% endfor %}
-{% assign total_posts = site.posts | size %}
-{% if total_posts > 4 %}
-<nav><a href="/posts/">Older Posts</a></nav>
-{% endif %}
+
+[All Posts](/posts/)
