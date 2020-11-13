@@ -1,7 +1,5 @@
 ---
 title: 350mm H Quadcopter
-permalink: /projects/350mm-h-quadcopter/
-category: project
 image: 350mm-h-quadcopter.jpg
 ---
 

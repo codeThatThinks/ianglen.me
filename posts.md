@@ -1,6 +1,5 @@
 ---
-title: All Posts
-permalink: /posts/
+title: Posts
 ---
 
 {% for post in site.posts %}

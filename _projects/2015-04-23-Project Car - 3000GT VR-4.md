@@ -1,7 +1,5 @@
 ---
 title: 1993 Mitsubishi 3000GT VR-4
-permalink: /projects/3000gt/
-category: project
 image: 3000gt.jpg
 ---
 

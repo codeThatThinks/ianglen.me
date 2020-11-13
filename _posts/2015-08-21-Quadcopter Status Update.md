@@ -1,8 +1,6 @@
 ---
 title: Quadcopter Status Update
-permalink: /projects/400mm-x-quadcopter/quadcopter-status-update/
-category: project-post
-project: 400mm-x-quadcopter
+category: 400mm-x-quadcopter
 image: quadcopter-status-update.jpg
 ---
 

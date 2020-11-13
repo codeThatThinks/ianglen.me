@@ -1,7 +1,5 @@
 ---
 title: HHS Makerspace Sign
-permalink: /projects/hhs-makerspace-sign/
-category: project
 image: hhs-makerspace-sign.jpg
 ---
 

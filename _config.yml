@@ -18,7 +18,14 @@ links:
 # Used for Sitemap.xml and your RSS feed
 url: http://ianglen.me
 
-permalink: /posts/:title/
+permalink: /:slug/
+
+collections:
+  posts:
+    permalink: /projects/:categories/:slug/
+  projects:
+    output: true
+    permalink: /projects/:slug/
 
 defaults:
     -

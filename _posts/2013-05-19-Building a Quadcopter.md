@@ -1,8 +1,6 @@
 ---
 title: Building a Quadcopter
-permalink: /projects/400mm-x-quadcopter/building-a-quadcopter/
-category: project-post
-project: 400mm-x-quadcopter
+category: 400mm-x-quadcopter
 image: building-a-quadcopter.jpg
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: 400mm X Quadcopter
-permalink: /projects/400mm-x-quadcopter/
-category: project
 image: 400mm-x-quadcopter.jpg
 ---
 

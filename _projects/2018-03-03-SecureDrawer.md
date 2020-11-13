@@ -1,7 +1,5 @@
 ---
 title: SecureDrawer
-permalink: /projects/securedrawer/
-category: project
 image: securedrawer.jpg
 ---
 

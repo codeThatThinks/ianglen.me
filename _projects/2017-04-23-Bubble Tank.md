@@ -1,7 +1,5 @@
 ---
 title: Bubble Tank
-permalink: /projects/bubble-tank/
-category: project
 image: bubble-tank.jpg
 ---
 

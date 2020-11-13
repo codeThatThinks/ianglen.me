@@ -1,5 +1,5 @@
-{% assign slug = page.title | slugify:default %}
-{% assign project_posts = site.posts | where:"category","project-post" | where:"project",slug %}
+{% assign slug = page.title | slugify %}
+{% assign project_posts = site.posts | where:"category",slug %}
 {% for project_post in project_posts %}
 <h1><a href="{{ project_post.url }}">{{ project_post.title }}</a></h1>
 <time>{{ project_post.date | date: "%F" }}</time>

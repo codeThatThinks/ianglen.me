@@ -1,8 +1,6 @@
 ---
 title: Updated Frame Design
-permalink: /projects/350mm-h-quadcopter/updated-frame-design/
-category: project-post
-project: 350mm-h-quadcopter
+category: 350mm-h-quadcopter
 image: updated-frame-design.jpg
 ---
 
