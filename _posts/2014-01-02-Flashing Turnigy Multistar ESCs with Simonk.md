@@ -17,11 +17,11 @@ If you've ever used an Arduino before, flashing the firmware of an ESC isn't muc
 **Disclaimer: When flashing ESCs, there is the potential to ruin the ESC and turn in into a paperweight. Make sure that the version of SimonK being flashed has been verified as compatible with the specific ESC model, although there is no guarentee of functionality. Also note that the factory firmware on the ESC will be overwritten and unrecoverable.**
 
 
-### Hooking It Up
+## Hooking It Up
 
 To get started, I removed the green heat shrink to expose the board. Take care not to damage any of the components under the heat shrink when cutting the heat shrink.
 
-{% include image.html src='/content/flashing-escs-pinout.jpg' alt='Pinout' %}
+![ESC pinout](/img/content/400mm-x-quadcopter/flashing-escs/pinout.jpg)
 
 There are six pads for in system programming near the microcontroller near where the sigal wires connect to the board. In my case, I had to desolder those wires in order to get access to the pads.
 
@@ -40,9 +40,9 @@ For the Bus Pirate the connections are as follows:
 
 The connections might be different depending on the programmer being used.
 
-{% include image.html src='/content/flashing-escs-soldered.jpg' alt='Wires Soldered to ESC' %}
+![Wires soldered to ESC](/img/content/400mm-x-quadcopter/flashing-escs/soldered.jpg)
 
-### Flashing the Firmware
+## Flashing the Firmware
 
 Once everything was ready to go, I had to figure out which version of Simonk would work with Turnigy Multistar ESCs. Based off of [this forum post](http://www.rcgroups.com/forums/showthread.php?t=1744924), it appears that the kda version is compatible with Turnigy Multistar ESCs up to 30 amps. I downloaded the [latest version of Simonk](https://github.com/sim-/tgy/downloads), which include the hex files for each specific version.
 
@@ -101,6 +101,6 @@ avrdude done.  Thank you.
 
 If everything goes as planned, connect to the next ESC and repeat. Any errors that occur are probably a result of the wiring connection to the ESC, so check everything and try it again.
 
-{% include image.html src='/content/flashing-escs-flashing.jpg' alt='Flashing' %}
+![Flashing the ESC](/img/content/400mm-x-quadcopter/flashing-escs/flashing.jpg)
 
 And that's about it. See, it's actually quite quick and easy.

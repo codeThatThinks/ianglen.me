@@ -11,11 +11,17 @@ In early 2017, I made some revisions to the design. The frame was redesigned to 
 
 Everything related to this build can be found on [GitHub](https://github.com/codeThatThinks/Quadcopter), including drawings and schematics.
 
-{% include image.html src='/content/350mm-h-quadcopter-overview.jpg' alt='350mm H Quad' %}
+![Quadcopter](/img/content/350mm-h-quadcopter/quadcopter.jpg)
+![Different perspective of quadcopter](/img/content/350mm-h-quadcopter/quadcopter2.jpg)
 
-{% include project_posts.html %}
+Photos of the original frame design:
 
-### Specs
+![Original design with top cover off](/img/content/350mm-h-quadcopter/old-quadcopter.jpg)
+![Original design assembled](/img/content/350mm-h-quadcopter/old-frame-assembled.jpg)
+![Original design motor closeup](/img/content/350mm-h-quadcopter/old-motor.jpg)
+![Original design in case](/img/content/350mm-h-quadcopter/old-in-case.jpg)
+
+## Specs
 
 * Frame: Custom 350mm; 16mm carbon fiber tubes, 1.5mm carbon fiber plate, 3D printed motor mounts
 * PDB: Custom 120 A with power switch, current sensor, and filtered VTX power
@@ -29,10 +35,7 @@ Everything related to this build can be found on [GitHub](https://github.com/cod
 * FPV Camera: RunCam Owl Plus 700TVL
 * FPV Transmitter: FatShark 5.8GHz 250mW w/ ImmersionRC LHCP SpiroNet antenna
 
-### Photos
-{% include image.html src='/content/350mm-h-quadcopter-overview2.jpg' alt='Revised design' %}
-
-### Specs (Original Design)
+## Specs (Original Design)
 
 * Frame: Custom 350mm; 25mm carbon fiber tubes, 1.5mm carbon fiber plate
 * Motors: Turnigy Aerodrive D2830-11 1000kv
@@ -45,8 +48,4 @@ Everything related to this build can be found on [GitHub](https://github.com/cod
 * FPV Camera: FatShark 700TVL CMOS
 * FPV Transmitter: FatShark 5.8GHz 250mW w/ ImmersionRC LHCP SpiroNet antenna
 
-### Photos (Original Design)
-{% include image.html src='/content/350mm-h-quadcopter-original-assembled.jpg' alt='Original Design Assembled' %}
-{% include image.html src='/content/350mm-h-quadcopter-original-frame.jpg' alt='Original Design Frame' %}
-{% include image.html src='/content/350mm-h-quadcopter-original-motors.jpg' alt='Original Design Motors' %}
-{% include image.html src='/content/350mm-h-quadcopter-original-case.jpg' alt='Original Design Case' %}
+{% include project_posts.html %}

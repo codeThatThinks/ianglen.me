@@ -13,7 +13,7 @@ Robots are awesome, and I've been wanting to build something robotic forever. An
 Of course, building a quadcopter is no small task. Even for someone that has spent countless hours tinkering with Arduinos and hobby electronics, building a quadcopter from scratch (and cheaply) takes a lot of skill. This will be a good test of my abilities.
 
 
-### Goals
+## Goals
 
 **Inexpensive**: I find it depressing when people spend many hundreds of dollars building a quadcopter. Sure, it's big and can carry your DSLR for you, but not much is gained between a cheap and expensive quadcopter. For this build, I'll try to keep the costs down to a minimum. As a result, I expect to build a small to medium-sized quadcopter.
 
@@ -24,7 +24,7 @@ Of course, building a quadcopter is no small task. Even for someone that has spe
 **Long Flight Time**: A while back, I bought a [Syma S107 helicopter](http://www.amazon.com/Syma-S107-S107G-Helicopter-Colors/dp/8499000606). It was a fantastically easy little helicopter to fly, and fairly inexpensive too. The only thing about it that really bugged me was the flight time. 15 minute charge time, 5 minute fly time really wasn't fitting for an ultralight, tiny helicopter. A quadcopter that can spend some time in the air would definitely be worth it to me.
 
 
-### Design Considerations
+## Design Considerations
 
 After some extensive research, it is clear that there are a lot of things that need to go into the design. This includes the frame, motors, motor speed controllers, power regulation, telemetry, communications, extra sensors, video, ground control, and failsafe, just to name a few.
 
@@ -35,7 +35,7 @@ The traditional 8-bit microcontroller, which is used in Arduinos, isn't going to
 An RF module could easily be one of the more costly parts for this project. However, after some looking around on eBay, it seems that Nordic has an inexpensive family of RF transceivers that will work well with the amount of data being transmitted. I've chosen a 2.4GHz module from them that provides six data streams, allowing video, sensor, and control data to be transmitted simultaneously.
 
 
-### Possible Pitfalls
+## Possible Pitfalls
 
 Again, building a quadcopter from scratch at home is not an easy task. The design, fabrication, and testing all pose possible pitfalls.
 

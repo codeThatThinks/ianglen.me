@@ -1,5 +1,5 @@
 ---
-title: Project Car - 3000gt VR-4
+title: 1993 Mitsubishi 3000GT VR-4
 permalink: /projects/3000gt/
 category: project
 image: 3000gt.jpg
@@ -7,25 +7,23 @@ image: 3000gt.jpg
 
 My daily driver/project car is a 1993 Mitsubishi 3000gt VR-4.
 
-This is where I document various mods, upgrades, and fixes.
-
-{% include image.html src='/content/3000gt-car.jpg' alt='Car' %}
-{% include image.html src='/content/3000gt-car-2.jpg' alt='Car' %}
-{% include image.html src='/content/3000gt-car-3.jpg' alt='Car' %}
+![Car front](/img/content/3000gt/car-front.jpg)
+![Car side](/img/content/3000gt/car-side.jpg)
+![Car rear](/img/content/3000gt/car-rear.jpg)
 
 The car previously had 17x8.5" OZ Racing wheels:
-{% include image.html src='/content/3000gt-old-wheels.jpg' alt='Old wheels.' %}
 
+![Previous wheels](/img/content/3000gt/previous-wheels.jpg)
 
-### Specs
+## Specs
 
 * 3.0L V6 DOHC 24 valve
-* twin turbo @ ~10 psi boost
+* twin turbo @ \~10 psi boost
 * AWD
 * all wheel steering at high speeds
 * active aero
 
-### Mods
+## Mods
 The car is mostly stock except for the following mods:
 
 * K&N intake
