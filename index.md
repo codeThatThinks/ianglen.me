@@ -2,7 +2,7 @@
 layout: landing
 permalink: /
 ---
-## Recent Posts
+# Recent Posts
 
 {% for post in site.posts limit: 4 %}
 <article>
