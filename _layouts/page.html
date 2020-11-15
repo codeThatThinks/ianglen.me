@@ -5,7 +5,13 @@
 		{% include meta.html %}
 	</head>
 	<body>
-		<header{% if page.image %} style="background-image:url('/img/content/bg/{{ page.image }}')"{% endif %}>
+		{% assign slug = page.title | slugify %}
+		{% if page.categories[0] %}
+			{% capture bg_path %}/img/content/{{ page.categories[0] }}/{{ slug }}/bg.jpg{% endcapture %}
+		{% else %}
+			{% capture bg_path %}/img/content/{{ slug }}/bg.jpg{% endcapture %}
+		{% endif %}
+		<header{% for static_file in site.static_files %}{% if static_file.path == bg_path %} style="background-image:url('{{ bg_path }}')"{% endif %}{% endfor %}>
 			<h1><a href="/">{{ site.name }}</a></h1>
 			<nav>
 				{% for link in site.links %}

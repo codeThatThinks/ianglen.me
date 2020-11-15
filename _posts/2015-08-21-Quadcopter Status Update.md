@@ -1,7 +1,6 @@
 ---
 title: Quadcopter Status Update
 category: 400mm-x-quadcopter
-image: quadcopter-status-update.jpg
 ---
 
 It's been quite a long time since I posted anything about my quadcopter and a lot has happened. Which includes me crashing it and destroying the frame.

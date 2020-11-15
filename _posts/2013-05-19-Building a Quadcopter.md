@@ -1,7 +1,6 @@
 ---
 title: Building a Quadcopter
 category: 400mm-x-quadcopter
-image: building-a-quadcopter.jpg
 ---
 
 Well, I've finally decided to build a quadcopter: an awesome robotic flying machine that is quite an improvement on the traditional RC helicopter.

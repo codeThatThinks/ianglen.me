@@ -1,6 +1,5 @@
 ---
 title: HHS Makerspace Sign
-image: hhs-makerspace-sign.jpg
 ---
 
 __Check out this project on [GitHub](https://github.com/codeThatThinks/hhs-makerspace-sign).__

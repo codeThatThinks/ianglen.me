@@ -1,7 +1,6 @@
 ---
-title: Flashing Turnigy Multistar ESCs with Simonk
+title: Flashing ESCs with Simonk
 category: 400mm-x-quadcopter
-image: flashing-escs.jpg
 ---
 
 As I have begun to learn more and more about this whole quadcopter thing, I've heard many people recommend replacing the stock firmware that comes with ESCs with a custom firmware, Simonk, that is specifically tuned for multicopters.

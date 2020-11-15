@@ -1,6 +1,5 @@
 ---
 title: SecureDrawer
-image: securedrawer.jpg
 ---
 
 SecureDrawer is a device that can be attached to any drawer and uses Bluetooth Low Energy to automatically and painlessly lock and unlock it depending on your phone's proximity to the drawer.
