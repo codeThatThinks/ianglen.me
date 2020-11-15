@@ -8,15 +8,15 @@ In early 2017, I made some revisions to the design. The frame was redesigned to 
 
 Everything related to this build can be found on [GitHub](https://github.com/codeThatThinks/Quadcopter), including drawings and schematics.
 
-![Quadcopter](/img/content/350mm-h-quadcopter/quadcopter.jpg)
-![Different perspective of quadcopter](/img/content/350mm-h-quadcopter/quadcopter2.jpg)
+![Quadcopter](quadcopter.jpg)
+![Different perspective of quadcopter](quadcopter2.jpg)
 
 Photos of the original frame design:
 
-![Original design with top cover off](/img/content/350mm-h-quadcopter/old-quadcopter.jpg)
-![Original design assembled](/img/content/350mm-h-quadcopter/old-frame-assembled.jpg)
-![Original design motor closeup](/img/content/350mm-h-quadcopter/old-motor.jpg)
-![Original design in case](/img/content/350mm-h-quadcopter/old-in-case.jpg)
+![Original design with top cover off](old-quadcopter.jpg)
+![Original design assembled](old-frame-assembled.jpg)
+![Original design motor closeup](old-motor.jpg)
+![Original design in case](old-in-case.jpg)
 
 ## Specs
 

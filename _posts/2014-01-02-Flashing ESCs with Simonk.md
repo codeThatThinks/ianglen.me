@@ -18,7 +18,7 @@ If you've ever used an Arduino before, flashing the firmware of an ESC isn't muc
 
 To get started, I removed the green heat shrink to expose the board. Take care not to damage any of the components under the heat shrink when cutting the heat shrink.
 
-![ESC pinout](/img/content/400mm-x-quadcopter/flashing-escs/pinout.jpg)
+![ESC pinout](pinout.jpg)
 
 There are six pads for in system programming near the microcontroller near where the sigal wires connect to the board. In my case, I had to desolder those wires in order to get access to the pads.
 
@@ -37,7 +37,7 @@ For the Bus Pirate the connections are as follows:
 
 The connections might be different depending on the programmer being used.
 
-![Wires soldered to ESC](/img/content/400mm-x-quadcopter/flashing-escs/soldered.jpg)
+![Wires soldered to ESC](soldered.jpg)
 
 ## Flashing the Firmware
 
@@ -98,6 +98,6 @@ avrdude done.  Thank you.
 
 If everything goes as planned, connect to the next ESC and repeat. Any errors that occur are probably a result of the wiring connection to the ESC, so check everything and try it again.
 
-![Flashing the ESC](/img/content/400mm-x-quadcopter/flashing-escs/flashing.jpg)
+![Flashing the ESC](flashing.jpg)
 
 And that's about it. See, it's actually quite quick and easy.

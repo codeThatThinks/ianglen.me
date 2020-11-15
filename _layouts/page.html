@@ -7,10 +7,11 @@
 	<body>
 		{% assign slug = page.title | slugify %}
 		{% if page.categories[0] %}
-			{% capture bg_path %}/img/content/{{ page.categories[0] }}/{{ slug }}/bg.jpg{% endcapture %}
+			{% capture img_dir %}/img/content/{{ page.categories[0] }}/{{ slug }}{% endcapture %}
 		{% else %}
-			{% capture bg_path %}/img/content/{{ slug }}/bg.jpg{% endcapture %}
+			{% capture img_dir %}/img/content/{{ slug }}{% endcapture %}
 		{% endif %}
+		{% capture bg_path %}{{ img_dir }}/bg.jpg{% endcapture %}
 		<header{% for static_file in site.static_files %}{% if static_file.path == bg_path %} style="background-image:url('{{ bg_path }}')"{% endif %}{% endfor %}>
 			<h1><a href="/">{{ site.name }}</a></h1>
 			<nav>
@@ -21,7 +22,14 @@
 		</header>
 		<main>
 			<h1>{{ page.title }}</h1>
-			{{ content }}
+			{% assign pieces = content | split: '<img src="' %}
+			{% for piece in pieces %}
+				{% if forloop.first == true %}
+					{{ piece }}
+				{% else %}
+					<img src="{{img_dir}}/{{piece}}
+				{%- endif -%}
+			{%- endfor -%}
 		</main>
 		<link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
 	</body>
