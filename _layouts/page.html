@@ -12,7 +12,14 @@
 			{% capture img_dir %}/img/content/{{ slug }}{% endcapture %}
 		{% endif %}
 		{% capture bg_path %}{{ img_dir }}/bg.jpg{% endcapture %}
-		<header{% for static_file in site.static_files %}{% if static_file.path == bg_path %} style="background-image:url('{{ bg_path }}')"{% endif %}{% endfor %}>
+		{% if page.bg %}
+		<style type="text/css">
+			header:before {
+				background-image: url({{ img_dir }}/{{ page.bg }}) !important
+			}
+		</style>
+		{% endif %}
+		<header>
 			<h1><a href="/">{{ site.name }}</a></h1>
 			<nav>
 				{% for link in site.links %}

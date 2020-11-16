@@ -4,6 +4,16 @@
 		<title>{{ site.name }}</title>
 		{% include meta.html %}
 		<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="/feed.xml" />
+		<style type="text/css">
+			#landing {
+			    flex-direction: column;
+			    min-height: 35em
+			}
+
+			#landing:before {
+				background-image: url(/img/bg.jpg) !important
+			}
+		</style>
 	</head>
 	<body>
 		<header id="landing">
