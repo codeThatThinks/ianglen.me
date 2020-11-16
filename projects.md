@@ -13,15 +13,20 @@ title: Projects
 				{% assign latest_date = project_post.date %}
 			{% endif %}
 		{% endfor %}
-		{{ latest_date }}|{{ project.url }}|{{ project.title }}
+		{{ latest_date }}|{{ project.url }}|{{ project.title }}|{{ project.image }}
 		{% if forloop.last != true %}^{% endif %}
 	{% endfor %}
 {% endcapture %}
 {% assign sorted_projects = sorted_projects | split:"^" | sort | reverse %}
 
-{% for project in sorted_projects %}
-{% assign project_items = project | split:"|" %}
-<article>
-    <span><a href="{{ project_items[1] }}">{{ project_items[2] }}</a></span>
-</article>
-{% endfor %}
+<div id="projects">
+	{% for project in sorted_projects %}
+	{% assign project_items = project | split:"|" %}
+	<article class="project">
+	    <a href="{{ project_items[1] }}">
+	    	<span>{{ project_items[2] }}</span>
+	    	<img alt="{{ project_images[2] }}" src="/img/content/{{ project_items[2] | slugify }}/{{ project_items[3] }}">
+	    </a>
+	</article>
+	{% endfor %}
+</div>

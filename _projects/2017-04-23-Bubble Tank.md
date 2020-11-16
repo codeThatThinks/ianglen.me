@@ -1,5 +1,6 @@
 ---
 title: Bubble Tank
+image: bubble-tank.jpg
 ---
 
 A robot who's sole purpose is to drive around and shoot bubbles.
