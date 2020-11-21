@@ -29,6 +29,7 @@ time,
 ul {
     line-height: 1.5em;
     margin-bottom: 1em;
+    text-align: justify;
 }
 ol,
 ul {
@@ -52,6 +53,8 @@ blockquote {
 pre {
     background-color: #eee;
     padding: 2em;
+    overflow-x: scroll;
+    font-size: 12pt;
 }
 code {
     font-family: monospace;
@@ -124,8 +127,8 @@ header h1 a {
 header nav {
     line-height: 2em;
 }
-header nav a:not(:last-child) {
-    margin-right: 1em;
+header nav a {
+    margin: 0 0.5em;
 }
 main {
     margin: 0 auto;
@@ -137,18 +140,17 @@ article {
     flex-direction: row;
 }
 article time {
-    min-width: 7em;
+    min-width: 6em;
 }
 
 #projects {
 	display: flex;
-	flex-wrap: wrap;
+	flex-flow: column wrap;
 }
 
 article.project {
-	max-width: 25em;
 	width: 100%;
-	margin: 0 1em 2em 1em;
+	margin-bottom: 1.5em
 }
 
 article.project span {
@@ -158,7 +160,13 @@ article.project span {
 	padding-bottom: 0.5em
 }
 
-article.project img {
-	width: 100%;
-	border-radius: 0.25em;
+@media only screen and (min-width: 700px) {
+    #projects {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    article.project {
+        max-width: 48%;
+    }
 }
