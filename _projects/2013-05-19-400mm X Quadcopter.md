@@ -8,8 +8,11 @@ A 400mm X-style quadcopter that I built on a tight budget with no prior experien
 Many naive design choices were made, and while it flew, it was not durable and did not perform well. It met its fate after suffering a hard crash which caused the frame to completely disintegrate.
 
 ![Quadcopter](quadcopter.jpg)
+
 ![Electronics closeup](electronics.jpg)
+
 ![Electronics side view](electronics-2.jpg)
+
 ![Motors closeup](motors.jpg)
 
 ## Specs

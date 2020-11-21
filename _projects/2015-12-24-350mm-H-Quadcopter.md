@@ -10,13 +10,17 @@ In early 2017, I made some revisions to the design. The frame was redesigned to 
 Everything related to this build can be found on [GitHub](https://github.com/codeThatThinks/Quadcopter), including drawings and schematics.
 
 ![Quadcopter](quadcopter.jpg)
+
 ![Different perspective of quadcopter](quadcopter2.jpg)
 
 Photos of the original frame design:
 
 ![Original design with top cover off](old-quadcopter.jpg)
+
 ![Original design assembled](old-frame-assembled.jpg)
+
 ![Original design motor closeup](old-motor.jpg)
+
 ![Original design in case](old-in-case.jpg)
 
 ## Specs
