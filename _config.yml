@@ -45,10 +45,6 @@ kramdown:
 gfm_quirks: paragraph_end
 strict_front_matter: true
 
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :compressed # You might prefer to minify using :compressed
-
 # Use the following plug-ins
 plugins:
   - jekyll-sitemap
@@ -61,5 +57,3 @@ exclude:
     - LICENSE
     - README.md
     - CNAME
-    - image-size.md
-    - _templates
