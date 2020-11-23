@@ -1,6 +1,7 @@
 ---
 title: 400mm X Quadcopter
 image: quadcopter.jpg
+bg: side-view.jpg
 ---
 
 A 400mm X-style quadcopter that I built on a tight budget with no prior experience with quadcopters or RC aircraft.
@@ -14,6 +15,8 @@ Many naive design choices were made, and while it flew, it was not durable and d
 ![Electronics side view](electronics-2.jpg)
 
 ![Motors closeup](motors.jpg)
+
+![Side View](side-view.jpg)
 
 ## Specs
 

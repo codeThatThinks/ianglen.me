@@ -1,6 +1,7 @@
 ---
 title: Custom 350 H-Quad Frame
 category: 350mm-h-quadcopter
+bg: motor.jpg
 ---
 
 I've spent the last week designing and building a new frame as I refurbish my quadcopter. It has been a lot of work, but I finally have something that is lightweight, durable, and looks awesome.

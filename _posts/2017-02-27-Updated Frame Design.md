@@ -1,6 +1,7 @@
 ---
 title: Updated Frame Design
 category: 350mm-h-quadcopter
+bg: frame-cad-view-front.jpg
 ---
 
 It's been a really, really long time since I've posted anything here. I've been extremely busy with school stuff and I haven't had the time or motivation to keep things documented. Regardless, a lot of progress has been made since the beginning of 2016. The second version of my quadcopter frame saw its first flight and first crash, which led me to realize a few of the major issues with the design and cause me to get to work on a revision.

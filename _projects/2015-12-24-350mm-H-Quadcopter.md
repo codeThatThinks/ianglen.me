@@ -1,6 +1,7 @@
 ---
 title: 350mm H Quadcopter
 image: quadcopter.jpg
+bg: quadcopter2.jpg
 ---
 
 A 350mm H-style quadcopter that I designed to be more durable and reliable. Some of the components I reused from the X-quad, but on a lot of things, like the carbon fiber frame, I started fresh.
@@ -17,7 +18,7 @@ Photos of the original frame design:
 
 ![Original design with top cover off](old-quadcopter.jpg)
 
-![Original design assembled](old-frame-assembled.jpg)
+![Original design assembled](old-assembled.jpg)
 
 ![Original design motor closeup](old-motor.jpg)
 
