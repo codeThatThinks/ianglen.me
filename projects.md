@@ -1,5 +1,6 @@
 ---
 title: Projects
+bg: bg.jpg
 ---
 
 {% capture sorted_projects %}
