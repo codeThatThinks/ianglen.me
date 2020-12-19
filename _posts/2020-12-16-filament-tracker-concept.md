@@ -7,6 +7,8 @@ bg: overview.jpg
 
 We had an internal hackathon day at work, so I decided to throw together a project to track 3D printer filament. I wanted something that could track multiple spools and display the status on a dashboard. I used a load cell to measure filament spool weights. The filament runs through a photo gate sensor before going to the printer to detect when the end comes off the spool.
 
+{% include youtube.html url='https://www.youtube.com/embed/fUaZoTWPoYY' %}
+
 ![Filament sensor with Arduinos and ESP8266](overview.jpg)
 
 With some plywood and 3D printed parts, I was able to make a holder for the spool and mount the load cell and photo gate. Interestingly, having the filament positioned in the center of the photo gate does not trigger the beam, instead the beam is offset slightly towards the end of the sensor.
