@@ -3,5 +3,5 @@
 {% for project_post in project_posts %}
 <h1><a href="{{ project_post.url }}">{{ project_post.title }}</a></h1>
 <time>{{ project_post.date | date: "%F" }}</time>
-{{ project_post.content }}
+{% include convert_img_urls.html slug=project_post.slug categories=project_post.categories content=project_post.content %}
 {% endfor %}

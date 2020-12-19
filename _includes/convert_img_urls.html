@@ -1,0 +1,36 @@
+{% if include.slug != nil and include.categories != nil %}
+{% capture img_dir %}/img/content/{% if include.categories[0] %}{{ include.categories[0] }}/{% endif %}{{ include.slug }}{% endcapture %}
+{% else %}
+{% capture img_dir %}/img/content/{% if page.categories[0] %}{{ page.categories[0] }}/{% endif %}{{ page.slug }}{% endcapture %}
+{% endif %}
+{% assign pieces = include.content | split: '<img src="' %}
+{% for piece in pieces %}
+{% if forloop.first == true %}
+{{ piece }}
+{% else %}
+{% if piece contains '" alt="' %}
+{% assign url = piece | split: '" alt="' | first %}
+{% assign alt = piece | split: '" alt="' | shift | join: '" alt="' | split: '"' | first %}
+{% assign rest = piece | split: '" alt="' | shift | join: '" alt="' | split: '"' | shift | join: '"' %}
+{% assign url_http_test = url | split: 'http://' | first %}
+{% assign url_https_test = url | split: 'https://' | first %}
+{% assign url_root_test = url | split: '/' | first %}
+{% if url_http_test == "" or url_https_test == "" or url_root_test == "" %}
+<img src="{{ url }}" alt="{{ alt }}"{{ rest }}
+{% else %}
+<img src="{{ img_dir }}/{{ url }}" alt="{{ alt }}"{{ rest }}
+{% endif %}
+{% else %}
+{% assign url = piece | split: '"' | first %}
+{% assign rest = piece | split: '"' | shift | join: '"' %}
+{% assign url_http_test = url | split: 'http://' | first %}
+{% assign url_https_test = url | split: 'https://' | first %}
+{% assign url_root_test = url | split: '/' | first %}
+{% if url_http_test == "" or url_https_test == "" or url_root_test == "" %}
+<img src="{{ url }}"{{ rest }}
+{% else %}
+<img src="{{ img_dir }}/{{ url }}"{{ rest }}
+{% endif %}
+{% endif %}
+{% endif %}
+{% endfor %}

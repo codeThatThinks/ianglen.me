@@ -5,14 +5,8 @@
 		{% include meta.html %}
 	</head>
 	<body>
-		{% assign slug = page.title | slugify %}
-		{% if page.categories[0] %}
-			{% capture img_dir %}/img/content/{{ page.categories[0] }}/{{ slug }}{% endcapture %}
-		{% else %}
-			{% capture img_dir %}/img/content/{{ slug }}{% endcapture %}
-		{% endif %}
-		{% capture bg_path %}{{ img_dir }}/bg.jpg{% endcapture %}
 		{% if page.bg %}
+		{% capture img_dir %}/img/content{% if page.categories[0] %}/{{ page.categories[0] }}/{% endif %}{% if page.slug %}/{{ page.slug }}{% endif %}{% endcapture %}
 		<style type="text/css">
 			header {
 				background-image: url({{ img_dir }}/{{ page.bg }}) !important
@@ -29,14 +23,7 @@
 		</header>
 		<main>
 			<h1>{{ page.title }}</h1>
-			{% assign pieces = content | split: '<img src="' %}
-			{% for piece in pieces %}
-				{% if forloop.first == true %}
-					{{ piece }}
-				{% else %}
-					<img src="{{img_dir}}/{{piece}}
-				{%- endif -%}
-			{%- endfor -%}
+			{% include convert_img_urls.html content=content %}
 		</main>
 		<footer>&copy; Ian Glen - <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a> unless specified</footer>
 		<link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">

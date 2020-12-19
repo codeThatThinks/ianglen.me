@@ -2,4 +2,4 @@
 layout: page
 ---
 <time>{{ page.date | date: "%F" }}</time>
-{{ content }}
+{% include convert_img_urls.html content=content %}
