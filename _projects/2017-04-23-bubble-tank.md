@@ -4,7 +4,7 @@ image: bubble-tank.jpg
 bg: bubble-tank.jpg
 ---
 
-Hakron 2017 hackathon project. A robot who's sole purpose is to drive around and blow bubbles.
+Hakron 2017 hackathon project. A robot that drives around and blows bubbles.
 
 ![Bubble Tank](bubble-tank.jpg)
 
