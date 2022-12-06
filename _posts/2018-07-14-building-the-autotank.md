@@ -14,6 +14,8 @@ From concept design to assembled tank in about a month. All components hand made
 
 ![Bent bottom sheet metal](bent-bottom.jpg)
 
+![Making shaft spacers](shaft-spacers.jpg)
+
 ![Assembled side plates and road wheels](sides-wheels-assembly.jpg)
 
 ![Fitting of Aluminum Square Tubing Frame](fitting-square-tubing.jpg)
