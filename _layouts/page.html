@@ -22,6 +22,10 @@
 			</nav>
 		</header>
 		<main>
+			{% if page.category %}
+			{% assign project_page = site.posts | find:"category",page.category %}
+			<span class="project-link"><a href="{{ project_page.url }}">{{ project_page.title }}</a></span>
+			{% endif %}
 			<h1>{{ page.title }}</h1>
 			{% include convert_img_urls.html content=content %}
 		</main>
