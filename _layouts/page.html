@@ -6,10 +6,10 @@
 	</head>
 	<body>
 		{% if page.bg %}
-		{% capture img_dir %}/img/content{% if page.categories[0] %}/{{ page.categories[0] }}/{% endif %}{% if page.slug %}/{{ page.slug }}{% endif %}{% endcapture %}
+		{% capture img_dir %}/img/content/{% if page.categories[0] %}{{ page.categories[0] }}/{% endif %}{% if page.slug %}{{ page.slug }}/{% endif %}{% endcapture %}
 		<style type="text/css">
 			header {
-				background-image: url({{ img_dir }}/{{ page.bg }}) !important
+				background-image: url({{ img_dir }}{{ page.bg }}) !important
 			}
 		</style>
 		{% endif %}
@@ -23,7 +23,9 @@
 		</header>
 		<main>
 			{% if page.categories[0] %}
-			{% assign project_page = site.projects | find:"slug",page.categories[0] %}
+			{{ page.categories }}
+			{% assign project_slug = page.categories[0] %}
+			{% assign project_page = site.projects | find:"slug",project_slug %}
 			<span class="project-link"><a href="{{ project_page.url }}">{{ project_page.title }}</a></span>
 			{% endif %}
 			<h1>{{ page.title }}</h1>
