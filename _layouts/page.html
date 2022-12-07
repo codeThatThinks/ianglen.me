@@ -23,9 +23,8 @@
 		</header>
 		<main>
 			{% if page.categories[0] %}
-			{{ page.categories }}
-			{% assign project_slug = page.categories[0] %}
-			{% assign project_page = site.projects | find:"slug",project_slug %}
+			{% assign project_page = site.projects | where:"slug",page.categories[0] %}
+			{% assign project_page = project_page[0] %}
 			<span class="project-link"><a href="{{ project_page.url }}">{{ project_page.title }}</a></span>
 			{% endif %}
 			<h1>{{ page.title }}</h1>
