@@ -1,6 +1,4 @@
-{{ page.slug }}
 {% assign project_posts = site.posts | where:"category",page.slug %}
-{{ project_posts.size }}
 {% for project_post in project_posts %}
 <h1><a href="{{ project_post.url }}">{{ project_post.title }}</a></h1>
 <time>{{ project_post.date | date: "%F" }}</time>
