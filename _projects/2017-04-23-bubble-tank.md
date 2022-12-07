@@ -14,7 +14,7 @@ We decided to create a remote-controlled tank with a bubble gun as a turret. The
 
 ![Bubble Tank Electronics](electronics.jpg)
 
-The web app on the Raspberry Pi is written and Go and serves out an interface that can be viewed on a phone connected to the Pi's WiFi hotspot. The web app uses JavaScript and WebSockets to relay commands back to the Pi. The Pi then forwards these commands to the Arduino, which is connected via the serial port. By using WebSockets, the web interface can maintain a persistent connection with the Pi and minimize latency. It also provides the unexpected benefit of allowing multiple instances of the interface to control the tank at the same time. The interface consists buttons to aim the bubble gun, a button to shoot bubbles, and a soft joystick to drive the tank.
+The web app on the Raspberry Pi is written in Go and serves out an interface that can be viewed on a phone connected to the Pi's WiFi hotspot. The web app uses JavaScript and WebSockets to relay commands back to the Pi. The Pi then forwards these commands to the Arduino, which is connected via the serial port. By using WebSockets, the web interface can maintain a persistent connection with the Pi and minimize latency. It also provides the unexpected benefit of allowing multiple instances of the interface to control the tank at the same time. The interface consists buttons to aim the bubble gun, a button to shoot bubbles, and a soft joystick to drive the tank.
 
 ![Remote Control Web Interface](web-interface.png)
 
